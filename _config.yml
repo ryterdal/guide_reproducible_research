@@ -41,6 +41,7 @@ sphinx:
     language: en-us
     # Hide copyright.
     html_show_copyright: false
+    html_favicon: images/cropped-site-icon-135x135.png
     html_theme_options:
       home_page_in_toc: true
       logo:
