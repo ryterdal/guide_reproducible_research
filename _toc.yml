@@ -5,53 +5,11 @@ format: jb-book
 root: chapters/index
 # Chapters may be written in either Markdown or as Jupyter Notebooks
 parts:
-  - chapters:
-    - file: chapters/prerequisites
-    - file: chapters/setup
-  - caption: "Reproducibility Principles and Practices"
+  - caption: "Reproducible Research Guide"
     numbered: true
     chapters:
-      - file: chapters/reproducibility/01_principles
-      - file: chapters/reproducibility/02_primary_practices
-      - file: chapters/reproducibility/03_secondary_practices
-      - file: chapters/reproducibility/04_case_by_case_practices
-      - file: chapters/reproducibility/references
-  - caption: "Introduction to the Command Line"
-    numbered: true
-    chapters:
-      - file: chapters/command-line/01_interacting-with-computers
-      - file: chapters/command-line/02_command-line-basics
-      - file: chapters/command-line/03_navigating-file-systems
-      - file: chapters/command-line/04_editing-files
-      - file: chapters/command-line/references
-  - caption: "Installing Software with Pixi"
-    numbered: true
-    chapters:
-      - file: chapters/installing-software/01_environment-managers
-      - file: chapters/installing-software/02_pixi-basics
-      - file: chapters/installing-software/a_configuring-the-shell
-      - file: chapters/installing-software/b_ucdavis-hpc-modules
-      - file: chapters/installing-software/c_python-packages
-      - file: chapters/installing-software/d_tasks
-  - caption: "Introduction to Version Control"
-    numbered: true
-    chapters:
-      - file: chapters/version-control/01_version-control-systems
-      - file: chapters/version-control/02_git-basics
-      - file: chapters/version-control/03_remote-repositories
-      - file: chapters/version-control/04_the-git-workflow
-  - caption: "Git for Teams"
-    numbered: true
-    chapters:
-      - file: chapters/git-for-teams/01_branches-merges
-      - file: chapters/git-for-teams/02_working-with-github
-      - file: chapters/git-for-teams/03_making-git-comfortable
-  # - caption: "Retired"
-  #   chapters:
-  #     - file: chapters/version-control/retired/git-branching
-  #     - file: chapters/git-for-teams/retired/01_about-github
-  #     - file: chapters/git-for-teams/retired/02_pushing-a-repository
-  #     - file: chapters/git-for-teams/retired/03_cloning-a-repository
-  #     - file: chapters/git-for-teams/retired/04_opening-issues-and-making-changes
-  #     - file: chapters/git-for-teams/retired/05_merging-remote-branches
-  #     - file: chapters/git-for-teams/retired/06_open-and-merge-pull-requests
+      - file: chapters/01_principles
+      - file: chapters/02_primary_practices
+      - file: chapters/03_secondary_practices
+      - file: chapters/04_case_by_case_practices
+      - file: chapters/references
