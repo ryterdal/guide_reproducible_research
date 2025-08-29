@@ -304,8 +304,10 @@ A **Unix shell** is a standardized way of interacting with a computer via text
 commands---that is, via a command line. Unix shells are widely-used for
 research computing. 
 
-See the [Introduction to the Command Line](ch-interacting-with-computers)
-chapters to get started with the command line and Unix shells.
+See the DataLab's [Introduction to the Command Line workshop reader][intro-cli]
+to get started with the command line and Unix shells.
+
+[intro-cli]: https://ucdavisdatalab.github.io/workshop_reproducible_research/chapters/command-line/01_interacting-with-computers.html
 :::
 
 If you run your workflows in a Unix shell, one way you can automate them is by
@@ -359,7 +361,7 @@ software versions. An **environment manager** is a software tool that can
 create virtual environments. Environment managers can usually also install,
 update, and remove software.
 
-```{figure} /images/reproducibility/xkcd_python_environment.png
+```{figure} /images/xkcd_python_environment.png
 ---
 name: xkcd-python
 alt:

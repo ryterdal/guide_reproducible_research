@@ -384,8 +384,10 @@ recommends that you do too.
 
 
 :::{seealso}
-See the [Introduction to Version Control](ch-version-control-systems) chapters
-for a technical introduction to version control with Git.
+See DataLab's [Introduction to Version Control workshop reader][intro-vcs] for
+a technical introduction to version control with Git.
+
+[intro-vcs]: https://ucdavisdatalab.github.io/workshop_reproducible_research/chapters/version-control/01_version-control-systems.html
 :::
 
 
@@ -438,7 +440,7 @@ following rules for naming files:
 At DataLab, we follow these rules for almost all of our projects, with some
 simplifying exceptions around how we use underscores and dashes.
 
-```{figure} /images/reproducibility/xkcd_iso_8601.png
+```{figure} /images/xkcd_iso_8601.png
 ---
 name: xkcd-iso-8601
 alt:
@@ -583,7 +585,7 @@ For more examples of directory structures, see:
 (organize-the-code)=
 ### Organize the Code
 
-```{figure} /images/reproducibility/xkcd_goto.png
+```{figure} /images/xkcd_goto.png
 ---
 name: xkcd-goto
 alt:
@@ -611,7 +613,7 @@ window or file.
 
 ::::{grid}
 :::{grid-item}
-```{image} /images/reproducibility/logo_rmarkdown.png
+```{image} /images/logo_rmarkdown.png
 :alt:
 :width: 50%
 :align: center
@@ -619,7 +621,7 @@ window or file.
 :::
 
 :::{grid-item}
-```{image} /images/reproducibility/logo_jupyter.svg
+```{image} /images/logo_jupyter.svg
 :alt:
 :width: 50%
 :align: center
@@ -627,7 +629,7 @@ window or file.
 :::
 
 :::{grid-item}
-```{image} /images/reproducibility/logo_quarto.svg
+```{image} /images/logo_quarto.svg
 :alt:
 :width: 50%
 :align: center
@@ -739,7 +741,7 @@ yourself---you can reuse someone else's code.
 
 ::::{grid}
 :::{grid-item}
-```{image} /images/reproducibility/logo_r.png
+```{image} /images/logo_r.png
 :alt:
 :width: 50%
 :align: center
@@ -747,7 +749,7 @@ yourself---you can reuse someone else's code.
 :::
 
 :::{grid-item}
-```{image} /images/reproducibility/logo_python_device.svg
+```{image} /images/logo_python_device.svg
 :alt:
 :width: 40%
 :align: center
@@ -755,7 +757,7 @@ yourself---you can reuse someone else's code.
 :::
 
 :::{grid-item}
-```{image} /images/reproducibility/logo_julia.svg
+```{image} /images/logo_julia.svg
 :alt:
 :width: 50%
 :align: center
