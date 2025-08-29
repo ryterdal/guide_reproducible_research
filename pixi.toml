@@ -1,12 +1,13 @@
 [project]
-name = "workshop_reproducible_research"
-version = "2025.spring.0"  # <year>.<quarter>.<revision #>
-description = "Reader for the Reproducible Research Starter Pack workshops."
+name = "guide_reproducible_research"
+version = "2025.summer.0"  # <year>.<quarter>.<revision #>
+description = ""
 authors = [
+  "Elise Hellwig <echellwig@ucdavis.edu>",
+  "Pamela Reynolds <plreynolds@ucdavis.edu>",
+  "Beth Tweedy <bntweedy@ucdavis.edu>",
   "Nick Ulle <naulle@ucdavis.edu>",
-  "Carl Stahmer",
-  "Tyler Shoemaker",
-  "Wesley Brooks"
+  "Rebeccah Yterdal <ryterdal@ucdavis.edu>",
 ]
 channels = ["conda-forge"]
 platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
