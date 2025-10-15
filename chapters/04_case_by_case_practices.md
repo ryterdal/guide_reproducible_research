@@ -111,15 +111,78 @@ introduction to snakemake.
 #### GitHub Actions
 
 
-Environment Management
-----------------------
+## Document the Computing Environment
 
-### Use an Environment Manager
+> A few years ago, you developed an R script to read an obscure file format,
+> MOO, for one of your research projects. The script was a huge help at the
+> time, but you moved on and haven't used it in a while. You just started an
+> exciting new project, and your collaborator sent you some data in a MOO file.
+> You find your script and try running it, but alas, it crashes with an error
+> message. In the years since you wrote the script, you updated your R packages
+> and even uninstalled a few. You're confident the script would work if only
+> you could go back to the packages and versions you had when you wrote it.
 
-A **computing environment** is a collection of hardware and software used to
-run computations. Whether a computation runs correctly or at all depends on the
-computing environment, so an important part of making a project reproducible is
-documenting the environment where the code was originally developed and tested.
+What your computer can do depends on its hardware and software. For instance, a
+computer with Windows 11 installed will not necessarily be able to run software
+developed for the much older Windows 95. Nor will it be able to run most
+software developed (exclusively) for macOS. The computer's central processing
+unit (CPU), memory, and other hardware components also limit the kinds of
+software it can run. Together, your computer's hardware and software make up a
+**computing environment** with specific capabilities and limitations.
+
+When you use computers in the course of your research, it's important to
+document the computing environment(s), so that people who want to reproduce
+your work will know what hardware and software they need. Without this
+documentation, an attempt to reproduce your work might yield errors or even
+incorrect results, and thus raise questions about whether your process and
+findings are valid. Good documentation on computing environments also makes it
+easier to:
+
+* Bring new collaborators into a project
+* Switch between or replace computers
+* Revisit old projects, whether to reexamine results or to repurpose methods
+* Reach a wide audience (especially if you want others to use your software)
+
+Modern computer operating systems and programming languages provide
+abstractions that hide hardware idiosyncrasies, so for making research
+reproducible, software is usually the primary concern---with exceptions for
+projects that rely on uncommon or specialized hardware. So at a minimum, for
+each computer you use in your research, you should document the name and
+version of:
+
+* The computer operating system
+* All other software you use to arrive at your results, including application
+  software (such as Microsoft Excel), programming languages, and packages for
+  programming languages
+
+If you decide to document the hardware, also include the manufacturer and model
+of:
+
+* Core components:
+    * Central processing unit
+    * Graphical processing unit (if not integrated in the CPU)
+    * Memory
+* All other hardware critical or relevant to your results
+
+There are many strategies and tools you can use to make documenting and
+reproducing computing environments more convenient and reliable. In the
+following sections, we describe three: environment managers, containerization,
+and cloud computing.
+
+<!--
+Computer hardware is expensive, so changing it isn't easy: the hardware you
+have is the hardware you use. The good news is that modern operating systems
+(like Windows and macOS) and programming languages abstract away many of the
+idiosyncrasies of hardware. As a result, a computer's capabilities and limits
+due to hardware depend more on performance characteristics like CPU speed,
+memory, and storage space than on make and model. That said, for the sake of
+transparency, it's good to make a habit of recording the exact specifications
+of any hardware you use for a research project.
+
+Software is much more mutable than hardware. Major operating systems receive
+updates weekly, and some software applications and libraries receive updates
+monthly. Most software builds on other software, so while updates typically fix
+bugs and add new features, they can also introduce incompatibilities.
 
 In high-level programming languages like R and Python, details of the hardware
 are mostly hidden away. That is, hardware has little to no impact on how you
@@ -135,11 +198,77 @@ cease to work correctly unless they are also updated. So for most projects,
 keeping track of the software environment means keeping track of the specific
 versions of packages and other software with which the project was carried out.
 
-A **virtual environment** is a computing environment with specific software
-versions that can coexist alongside other virtual environments with different
-software versions. An **environment manager** is a software tool that can
-create virtual environments. Environment managers can usually also install,
-update, and remove software.
+A **virtual environment** is a self-contained collection of software with
+specific versions. A key characteristic of virtual environments is that they
+can coexist with other virtual environments.
+
+that can coexist alongside other virtual environments, which may contain
+different software or the same software with different versions. An
+**environment manager** is a software tool that can create virtual
+environments. Environment managers can usually also install, update, and remove
+software.
+-->
+
+### Environment Managers
+
+An **environment manager** is a software tool to create, keep track of and
+switch between collections of software. These collections of software are
+called **virtual environments**. When you create a virtual environment, and as
+you install software into it, the environment manager records the names and
+versions of the software (and sometimes other details). Most environment
+managers can also save this metadata to a file that fully describes the virtual
+environment. You can then use the file and the environment manager to reproduce
+the virtual environment on other computers. In short, using an environment
+manager directly addresses the need to document the software in your computing
+environment by doing the most tedious parts for you.
+
+Besides making your computing environment easier to reproduce, using an
+environment manager also provides several other benefits:
+
+* Most environment managers can download, install, update, and uninstall
+  software, so that you don't have to track down links and work through
+  multi-step installation instructions.
+* New collaborators can quickly set up a virtual environment with the exact
+  same software as you. Similarly, you can quickly get set up on other
+  computers.
+* You can work on multiple projects with incompatible software requirements
+  simultaneously by using a separate virtual environment for each project.
+  Virtual environments are generally independent and self-contained. For
+  example, you might create one virtual environment with R version 4.5 and
+  another with R version 3.2, even though these are incompatible.
+* When you revisit an old project, you can easily "time travel" back to the
+  virtual environment and software you had when you were working on it.
+
+Many different open-source environment managers exist. For most research
+computing projects, we recommend and use [Pixi][]. Pixi can:
+
+[Pixi]: https://pixi.sh/
+
+* Install general-purpose software packages (such as Git, R, and Python)
+* Install Python packages from PyPI or Conda-Forge
+* Install R packages
+* Determine dependencies for a given collection of packages you want to use
+* Automatically download and install packages
+* Create and manage virtual environments on a per-project basis
+* Keep track of which packages you installed (and their versions)
+* Reproduce an environment from a description
+
+
+:::{note}
+Pixi downloads packages from [conda-forge][], a community-maintained repository
+of open-source software. The conda-forge repository was originally created to
+support [Conda][], the first environment manager designed specifically for
+research computing projects. Thanks to the hard work of its maintainers,
+conda-forge contains more than 25,000 packages.
+
+[Conda]: https://docs.conda.io/
+[conda-forge]: https://conda-forge.org/
+
+We recommend Pixi rather than Conda because Pixi is faster, provides better
+cross-platform support, and provides exact reproductions of virtual
+environments (until recently, Conda did not support exact version matching).
+Pixi also provides several other features that make it pleasant to use.
+:::
 
 ```{figure} /images/xkcd_python_environment.png
 ---
@@ -150,60 +279,27 @@ alt:
 ([license][xkcd-license]).
 ```
 
-Many different open-source environment managers exist. Among those explicitly
-designed for research computing, [conda][] is the de facto standard. Conda was
-originally developed to manage Python environments, but now supports other
-languages such as R and Julia.
+We recommend that you create a new virtual environment for each project and
+switch between them as needed. Make sure to save the description of the virtual
+environment with each project (Pixi does this automatically). If you're also
+using a version control system, we recommend using it to track changes to the
+environment description file.
 
-[conda]: https://docs.conda.io/
+:::{seealso}
+See DataLab's [Setting Up Software][datalab-pixi] workshop reader for a
+detailed introduction to Pixi.
 
-:::{tip}
-A relatively new package manager, [Pixi][], is faster and is better at
-accurately reproducing environments than conda, while maintaining compatibility
-with conda packages. Pixi also provides several other features that make it
-pleasant to use. At DataLab, we are just starting to switch over to Pixi.
-
-[Pixi]: https://pixi.sh/
-:::
-
-:::{note}
 If you exclusively use R and prefer to use an environment manager developed
 specifically for R, check out the [renv][] package.
 
-[renv]: https://rstudio.github.io/renv/
-:::
-
-By using an environment manager like conda, you can ensure that the versions of
-packages and software your projects depend on are recorded. Generally you
-should create a new virtual environment for each project, and switch between
-them as needed. Environment managers provide tools to save a description of a
-virtual environment to a file and to recreate an environment from such a file.
-This way you and your collaborators can set up a project on a new computer and
-make sure it has the correct software environment.
-
-
-:::{seealso}
-See [the Setting Up Software chapter][datalab-micromamba] in DataLab's
-Introduction to Remote Computing workshop reader for a technical introduction
-to micromamba, a fast and efficient drop-in replacement for conda.
-
 If you prefer to use the original conda, instead see DataLab's [Making Python
-Projects & Environments Reproducible workshop reader][datalab-conda]. Then see
-DataLab's and DIB Lab's [Installing Software on Remote Computers with Conda
-workshop reader][datalab-conda-remote] for even more technical details.
+Projects & Environments Reproducible][datalab-conda] workshop reader.
+
+[datalab-pixi]: https://ucdavisdatalab.github.io/workshop_reproducible_research/chapters/installing-software/01_environment-managers.html
+[renv]: https://rstudio.github.io/renv/
+[datalab-conda]: https://ucdavisdatalab.github.io/workshop_intermediate_python/chapters/retired/reproducible.html
 :::
 
-[datalab-micromamba]: https://ucdavisdatalab.github.io/workshop_intro_to_remote_computing/chapters/02_environment-setup.html
-[datalab-conda]: https://ucdavisdatalab.github.io/workshop_intermediate_python/chapters/02_reproducible.html
-[datalab-conda-remote]: https://ngs-docs.github.io/2021-august-remote-computing/installing-software-on-remote-computers-with-conda.html
+### Containerization
 
-
-### Use Virtualization
-
-#### Containers
-
-#### Virtual Machines
-
-### Go to the Cloud
-
-
+### Cloud Computing
