@@ -300,6 +300,32 @@ Projects & Environments Reproducible][datalab-conda] workshop reader.
 [datalab-conda]: https://ucdavisdatalab.github.io/workshop_intermediate_python/chapters/retired/reproducible.html
 :::
 
+
 ### Containerization
+
+While environment managers provide a way to reproduce most of the software (or
+at least the open-source software) in your computing environment, they usually
+don't account for your computer's operating system. They also don't account for
+differences in hardware. One strategy that addresses both of these points is
+hardware **virtualization**: make your computer simulate another computer,
+complete with its own hardware and operating system, and then do all of your
+computing in this virtual computer. A drawback of this approach is that
+simulating a computer requires CPU time and memory, so there's less available
+for the things you actually want to compute. Nevertheless, virtualization
+provides strong guarantees for reproducibility, since everyone who interacts
+with your project can use the exact same computing environment you used.
+
+Operating system virtualization, or **containerization**, takes the same
+approach as hardware virtualization, but only simulates the operating system,
+not the computer hardware. This takes less computing resources away from the
+things you want to compute, while still providing most of the reproducibility
+guarantees. Containerization began to become popular in the 2010s with the
+releases of [Docker][] and [Kubernetes][]. It is now widely-used in industry
+and considered a software engineering best practice for ensuring
+business-critical software works correctly.
+
+[Docker]: https://www.docker.com/
+[Kubernetes]: https://kubernetes.io/
+
 
 ### Cloud Computing
