@@ -311,8 +311,10 @@ Language (GML), Turtle/RDF
 
 **Moving Images:** MOV, MP4, AVI
 
-:::{note}
-A Word Industry Standards: There are some fields that are so heavily dominated
+
+:::{admonition} A Word on Industry Standards  
+:class: note
+There are some fields that are so heavily dominated
 by a particular proprietary software that the file format associated with that
 software becomes the de facto file format for the entire field. In this case,
 using the proprietary format will make data more accessible than using a niche
