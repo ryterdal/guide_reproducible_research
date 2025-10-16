@@ -573,7 +573,7 @@ structure you decide to use in your project's README (see
 If your research is more qualitative in nature than quantitive, the same basic 
 principles of organization apply. However the overall goal may be to show iterative 
 analysis, reflection, and ethical managment of sensitive materials rather than rigid
-data pipeline processng. For instance, your directory structur might include:
+data pipeline processng. For instance, your directory structure might include:
 
 * `data/` which includes `interviews/`, `fieldnotes/`, and `documents/`
 * `coding/` which includes `themes/` and `memos/`
