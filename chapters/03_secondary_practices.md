@@ -285,7 +285,8 @@ completely inaccessible.
 
 Using open file formats means your data will be accessible to the largest
 number of people, for the longest period of time. The following are a list of 
-open standard file formats by data type. It is not exhaustive but  
+open standard file formats by data type. It is not exhaustive but is a place to
+start. 
 
 **Tabular Data:** Plain-text (.csv, .tsv, .txt), Apache Arrow (.feather),
 Apache Parquet (.parquet), OpenOffice Calc (.ods)
