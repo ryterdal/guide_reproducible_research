@@ -1,4 +1,4 @@
-Primary Practices
+﻿Primary Practices
 =================
 
 This chapter covers primary practices for reproducibility. At DataLab, we adopt
@@ -829,3 +829,104 @@ and consider joining the [UC Julia Users Group][ucjug].
 [dpug]: https://datalab.ucdavis.edu/davis-python-users-group/
 [julia-docs]: https://docs.julialang.org/
 [ucjug]: https://datalab.ucdavis.edu/julia-users-group/
+
+
+Publishing
+-------------------
+### Open Access 
+
+Not having access to a piece of work is the main roadblock to reproducibility. Publishing articles and the underlying data openly will allow anyone to reproduce and confirm the research, and build on the knowledge in a future project.
+
+:::{important}
+**Open Licenses**
+
+Applying an open license to your materials is key to making them openly available. Open licenses allow anyone to view, share, and reuse materials. See more in the {ref}`open-licenses` section below.
+:::
+
+#### Publish Open Data
+
+Study data are often stored privately, but sharing your data is an integral part of reproducibility. Research simply cannot be reproduced without access to the data underlying the results, figures, tables, and conclusions.
+
+“Open data” refers to data shared publicly and licensed under an open license so that it can be freely accessed, reused, and shared by anyone. Many grant providers, institutions, and publishers now require underlying data to be shared openly.
+
+You can deposit your data in open data repositories to make them freely available. Whether you want a generalist or specialist repository, look for a reliable repository that meets the following requirements:
+* Uses open licenses
+* Assigns Persistent Identifiers (PID), such as digital object identifiers (DOI), to the dataset(s)
+* Plans for long-term maintenance, continued access, and preservation of the datasets.
+* Financially stable
+* No burdensome access requirements for readers, such as registration fees, membership requirements, etc.
+* Contact information, documentation, and staff or representatives are available to address issues and offer user support.
+
+Learn more about trustworthy data repository requirements from [CoreTrustSeal][cts-repositories-requirements].
+
+[cts-repositories-requirements]: https://www.coretrustseal.org/why-certification/requirements/
+
+:::{margin}
+```{note}
+Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)```
+:::
+
+You should also ensure your data follow FAIR principles using the following practices:
+
+**Findable:**
+* Publish or deposit in an open access repository.
+* Assign a persistent identifier to your dataset, such as a Digital Object Identifier (DOI). (This can usually be done by depositing in a repository.)
+* Properly cite the data in any related published materials.
+
+**Accessible:**
+* Publish or deposit in an open access repository.
+* Include proper metadata describing access, authentication, and authorization.
+
+**Interoperable:**
+* Publish data and metadata in standard, non-proprietary formats.
+* {ref}`use-file-formats-effectively`
+
+**Reusable:**
+* Provide metadata and adequate documentation for reuse.
+* **Other links to other sections???**
+* Publish under an open license.
+* Properly cite your source data.
+
+:::{seealso}
+See UC Davis Library's [Research Data Management Guide][RDM-guide-data-sharing] to learn more about how to share your data openly.
+
+Review the {ref}`open-licenses` section below to learn more about publishing your data under an open license.
+:::
+
+[RDM-guide-data-sharing]: https://guides.library.ucdavis.edu/data-management/data-sharing
+
+#### Publish Open Access Articles
+
+Publishing an open access article reduces barriers for readers and researchers by making it freely accessible, usually through an open license. 
+
+Open access not only allows anyone to read and the papers, but it also permits reproducibility, replicability, and the opportunity to build on or reuse all or part of your work to advance science and knowledge. Many grant providers and institutions may also require your paper to be published open access.
+
+Learn more about open access publishing, including finding reputable journals and avoiding predatory publishers, and open access support at UC Davis on our [Open Access Publishing Library Guide][open-access-guide].
+
+[open-access-guide]: https://guides.library.ucdavis.edu/open-access-publishing
+
+(open-licenses)=
+#### Open Licenses
+
+A **license** grants others permission to possess, copy, and/or use a piece of work in a variety of ways. An **open license** makes a work freely available for others to read, copy, distribute, and use without obtaining permission from the author or creator. Open licenses also provide free, immediate, and perpetual access to the content. 
+
+For code, an open-source license ensures that software can continue to be maintained and extended even if the original developers cease development. They also promote transparency and collaboration, since anyone with the software can inspect and modify the code.
+
+When an open license is applied to a work, the author or creator retains the rights to/ownership of the original work, and most open licenses require that proper credit be given to the creator.
+
+[Creative Commons][creative-commons] licenses are the most common open licenses for articles and datasets. MIT licenses are common for open code, but many more are available, as discussed by the [Open Source Initiative][open-source-licenses].
+
+Many open licenses allow for any type of use and reuse, including modifications, distribution, etc., but authors have options for open licenses with certain restrictions such as no commercial use or no derivatives, or a requirement that any copies or adaptations be licensed under a similar open license.
+
+[creative-commons]: https://creativecommons.org/
+[open-source-licenses]: https://opensource.org/licenses
+
+:::{seealso}
+For licensing data, writing, art, or other materials, see Creative Commons'[Choose a License page][cc-cal] for help deciding on a Creative Commons license.
+
+For licensing software, see [choosealicense.com][gh-cal] to help you choose an open license (maintained by GitHub)or the Open Source Initiative's [FAQ answer about which license to choose][osi-cal].
+:::
+
+[gh-cal]: https://choosealicense.com/
+[osi-cal]: https://opensource.org/faq/#which-license
+[cc-cal]: https://creativecommons.org/choose/
