@@ -570,6 +570,15 @@ your collaborators, and your audience. Make sure to document whatever directory
 structure you decide to use in your project's README (see
 {numref}`file-manifests`).
 
+If your research is more qualitative in nature than quantitive, the same basic 
+principles of organization apply. However the overall goal may be to show iterative 
+analysis, reflection, and ethical managment of sensitive materials rather than rigid
+data pipeline processng. For instance, your directory structur might include:
+
+* `data/` which includes `interviews/`, `fieldnotes/`, and `documents/`
+* `coding/` which includes `themes/` and `memos/`
+* `outputs/` which includes `analysis_summaries/` and `reports/`
+
 :::{seealso}
 For more examples of directory structures, see:
 
