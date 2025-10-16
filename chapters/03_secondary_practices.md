@@ -288,28 +288,17 @@ number of people, for the longest period of time. The following are a list of
 open standard file formats by data type. It is not exhaustive but is a place to
 start. 
 
-**Tabular Data:** Plain-text (.csv, .tsv, .txt), Apache Arrow (.feather),
-Apache Parquet (.parquet), OpenOffice Calc (.ods)
 
-
-**Nested/Tree Data:** JSON, XML
-
-
-**Geospatial Data:** GeoJSON (vector), GeoTIFF (raster), NetCDF (raster),
-Hierarchical Data Format (HDF, raster), OGC GeoPackge (both)
-
-
-**Network or Graph:** GraphML, Graph Exchange XML Format (GEXF), Graph Modeling
-Language (GML), Turtle/RDF
-
-
-**Still Images:** PNG (raster), TIFF (raster), SVG (vector)
-
-
-**Audio:** WAVE, AIFF, MP3, MXF
-
-
-**Moving Images:** MOV, MP4, AVI
+| Data Structure            | File Formats                                |
+|---------------------------|---------------------------------------------|
+|**Tabular Data**           | Plain-text (.csv, .tsv, .txt), Apache Arrow (.feather), Apache Parquet (.parquet), OpenOffice Calc (.ods)|
+|**Nested/Tree Data**       | JSON, XML                                   |
+|**Geospatial Data**        | GeoJSON (vector), GeoTIFF (raster), NetCDF (raster), Hierarchical Data Format (HDF, raster), OGC GeoPackge (both)|
+|**Network or Graph**       | GraphML, Graph Exchange XML Format (GEXF), Graph Modeling Language (GML), Turtle/RDF|
+|**Still Images**           | PNG (raster), TIFF (raster), SVG (vector)   |
+|**Audio**                  | WAVE, AIFF, MP3, MXF                        |
+|**Moving Images**          | MOV, MP4, AVI                               |
+|**Databases**              | Postgres, SQLite, DuckDB, MongoDB, Neo4j, Apache CouchDB |
 
 
 :::{admonition} A Word on Industry Standards  
