@@ -261,6 +261,8 @@ Arrow is faster to read and write and a good choice for short-term storage.
 Parquet is a better choice for long-term storage because the standard is more
 stable.
 
+
+
 [arrow]: https://arrow.apache.org/
 [feather]: https://arrow.apache.org/docs/python/feather.html
 [parquet]: https://parquet.apache.org/
@@ -301,14 +303,6 @@ Nested/Tree Data
 * XML
 
 
-Still Images
-* PNG (raster)
-
-* TIFF (raster)
-
-* SVG (vector)
-
-
 Geospatial Data
 * GeoJSON (vector)
 
@@ -331,6 +325,14 @@ Network or Graph
 * Turtle/RDF
 
 
+Still Images
+* PNG (raster)
+
+* TIFF (raster)
+
+* SVG (vector)
+
+
 Audio
 * WAVE
 
@@ -348,14 +350,14 @@ Moving Images
 
 * AVI
 
-
+:::{note}
 A Word Industry Standards: There are some fields that are so heavily dominated
 by a particular proprietary software that the file format associated with that
 software becomes the de facto file format for the entire field. In this case,
 using the proprietary format will make data more accessible than using a niche
-open standard format. It may be worth backing up the data in a non-proprietary
+open standard format. However, you should back up your data in a non-proprietary
 format in case you lose access to the proprietary software.
-
+:::
 
 :::{seealso}
 For more information about file formats for long term data storage formats, see
