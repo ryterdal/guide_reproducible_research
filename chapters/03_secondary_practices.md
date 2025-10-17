@@ -313,7 +313,7 @@ reproducible. However, they are much easier to learn because the set of tasks
 they are designed to do is much smaller. 
 
 
-:::{tip}
+:::{seealso}
 DataLab's [An Overview of Databases and Data Storage workshop
 reader][datalab-db] provides an introduction to databases. DataLab's
 [Introduction to SQL for Querying Databases workshop reader][datalab-sql]
