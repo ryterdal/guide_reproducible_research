@@ -307,6 +307,11 @@ Non-relational (SQL-based) databases use a variety of langauges to write
 queries. MongoDB, a document based database, uses MQL, which you can learn in
 W3School's [MongoDB Tutorial][mongo].
 
+Like other computer languages, query languages like SQL and MQL make your data
+cleaning and transformation processes reproducible. However, they are much
+easier to learn because the set of tasks they are designed to do is much
+smaller. 
+
 
 :::{tip}
 DataLab's [An Overview of Databases and Data Storage workshop
