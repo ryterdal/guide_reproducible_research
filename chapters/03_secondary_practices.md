@@ -36,6 +36,30 @@ about how to document data.
 
 [datalab-readme]: https://ucdavisdatalab.github.io/workshop_how-to-data-documentation/
 
+(create-data-dictionary)=
+#### Create a Data Dictionary or File Manifest
+
+A **data dictionary** is a document that explains what every field in your
+dataset means as well as any restrictions on their values. This includes things
+like the data type (ex. number, date, text, boolean), and whether that field can
+be missing. The more information you include, the more helpful it will be down
+the line (see [Captain Obvious][captain_o]). Data dictionaries are the most
+efficient way to communicate the structure and content of your data to other
+collaborators, including future you!
+
+If you aren't sure where to start with creating a data dictionary, 
+
+If your dataset looks less like a series of rows and columns, and more like a 
+long list of files, consider creating a more detailed **file manifest** instead.
+
+:::{seealso}
+[Open Science Framework][osf_dd] on data dictionaries.
+[USGS][usgs_dd] on data dictionaries
+:::
+
+[osf_dd]: https://help.osf.io/article/217-how-to-make-a-data-dictionary
+[usgs_dd]: https://www.usgs.gov/data-management/data-dictionaries
+[captain_o]: https://dataedo.com/blog/captain-obivous-guide-to-column-descriptions-data-dictionary-best-practices
 
 (document-every-experiment)=
 ### Document Every Experiment
