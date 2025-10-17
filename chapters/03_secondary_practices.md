@@ -283,7 +283,7 @@ your data.
 granular level.
 
 Databases are a specialized tool. They are optimized for querying and
-transforming data. As such, they are generallly faster at those tasks than R or
+transforming data. As such, they are generally faster at those tasks than R or
 Python. However, they don't do everything. You can't create a data visualization
 using a database, or run a statistical analysis. A database is a perfect data
 source for those tasks to ensure that your results are reproducible across
