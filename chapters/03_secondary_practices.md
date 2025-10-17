@@ -286,7 +286,7 @@ granular level.
 Historically, databases were restricted to primarily tabular data (rows and
 columns), in what is called a relational database. In recent years though, new
 types of databases have come on the scene that can efficiently store all sorts
-of different data, including nested (tree based) data, graph data, and
+of different data, including nested or tree based data, graph data, and
 unstructured text. The type of data you have will inform what kind of
 database would be best for you, which you can find out more about in the
 [Overview of Databases and Data Storage reader][datalab-db]
@@ -295,13 +295,13 @@ Databases are a specialized tool. They are optimized for querying and
 transforming data. As such, they are generallly faster at those tasks than R or
 Python. However, they don't do everything. You can't create a data visualization
 using a database, or run a statistical analysis. A database is a perfect data 
-source for those tasks to ensure that your results are reproducible across time
-and collaborators. 
+source for those tasks to ensure that your results are reproducible across
+collaborators and over time. 
 
 Many, if not most, database systems have graphical user interface software to
-make it easier to interace with the database. To get the most out of a database,
-it is helpful to the query langauge associated with your database of choice. For
-relational databases this is SQL. To get get started with SQL, see 
+make it easier to interace with the database. But, to get the most out of a
+database, it is helpful to the query langauge associated with your database of
+choice. For relational databases this is SQL. To get get started with SQL, see
 [Introduction to SQL for Querying Databases workshop reader][datalab-sql].
 Non-relational (SQL-based) databases use a variety of langauges to write
 queries. MongoDB, a document based database, uses MQL, which you can learn in
