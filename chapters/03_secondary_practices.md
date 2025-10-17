@@ -282,6 +282,15 @@ your data.
 * control who has access to your data, and what they can do with it, on a very
 granular level.
 
+Databases are a specialized tool. They are optimized for querying and
+transforming data. As such, they are generallly faster at those tasks than R or
+Python. However, they don't do everything. You can't create a data visualization
+using a database, or run a statistical analysis. A database is a perfect data
+source for those tasks to ensure that your results are reproducible across
+collaborators and over time. Databases also make an excellent platform for
+sharing or publishing your data. Their permissions functionality means you can
+easily give the public read only access to your finalized data products, while
+keeping the raw or unprocessed data only accessible to your collaborators.
 
 Historically, databases were restricted to primarily tabular data (rows and
 columns), in what is called a relational database. In recent years though, new
