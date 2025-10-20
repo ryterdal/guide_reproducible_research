@@ -847,7 +847,7 @@ Applying an open license to your materials is key to making them openly availabl
 
 Study data are often stored privately, but sharing your data is an integral part of reproducibility. Research simply cannot be reproduced without access to the data underlying the results, figures, tables, and conclusions.
 
-“Open data” refers to data shared publicly and licensed under an open license so that it can be freely accessed, reused, and shared by anyone. Many grant providers, institutions, and publishers now require underlying data to be shared openly.
+**Open data** refers to data shared publicly and licensed under an open license so that it can be freely accessed, reused, and shared by anyone. Many grant providers, institutions, and publishers now require underlying data to be shared openly.
 
 You can deposit your data in open data repositories to make them freely available. Whether you want a generalist or specialist repository, look for a reliable repository that meets the following requirements:
 * Uses open licenses
@@ -861,10 +861,11 @@ Learn more about trustworthy data repository requirements from [CoreTrustSeal][c
 
 [cts-repositories-requirements]: https://www.coretrustseal.org/why-certification/requirements/
 
-:::{margin}
-```{note}
+::::{margin}
+:::{note}
 Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)```
 :::
+::::
 
 You should also ensure your data follow FAIR principles using the following practices:
 
