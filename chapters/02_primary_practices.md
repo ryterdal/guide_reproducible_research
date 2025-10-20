@@ -281,18 +281,31 @@ dictionary, and the [USGS][usgs_dd] provides many examples of data dictionaries
 and how they are used in different contexts. If you are working with multiple 
 data sets, make sure to clarify which data dictionary to use with each data set.
 
-If your dataset looks less like a series of rows and columns, and more like a 
-long list of files, consider creating a more detailed **file manifest** instead.
+If your dataset looks less like a series of rows and columns, and more like a
+long list of files, consider creating a **data inventory** instead. A data
+inventory should include the author or source, title, publication year (if
+published), and file name for each file, but can include more file metadata as
+necessary. A data inventory for a public domain fiction data set would look
+something like this.
 
-:::{seealso}
-[Open Science Framework][osf_dd] on data dictionaries.
-[USGS][usgs_dd] on data dictionaries
-:::
+|Author              |Title               |Year |Filename                                  |
+|--------------------|--------------------|-----|------------------------------------------|
+|Bronte,Charlotte    |JaneEyre            |1847 |EN_1847_BronteCharlotte_JaneEyre.txt      |
+|Austen,Jane         |SenseandSensibility |1811 |EN_1811_AustenJane_SenseandSensibility.txt|
+|Wollstonecraft,Mary |Maria               |1798 |EN_1798_WollstonecraftMary_Maria.txt      |
+|...                 |...                 |...  |...                                       |
+
+
+If you also need to keep track of things like the provenance or license
+associated with each file or data set, DataLab's 
+[data inventory template][datalab_di_template] provides a pretty comprehensive
+starting point. 
 
 [osf_dd]: https://help.osf.io/article/217-how-to-make-a-data-dictionary
 [usgs_dd]: https://www.usgs.gov/data-management/data-dictionaries
 [captain_o]: https://dataedo.com/blog/captain-obivous-guide-to-column-descriptions-data-dictionary-best-practices
 [datalab_dd_template]: https://docs.google.com/spreadsheets/d/12N0hKyeT0ndZnt7rVZsz7LTW--BHhbb6TOegXEKQoxE/edit?usp=sharing
+[datalab_di_template]: https://docs.google.com/spreadsheets/d/1nUb-eu82Q7VplDpk0np5rYuaN52mYHLdql18pRD0i4Y/edit?usp=sharing
 
 
 (workflows)=
