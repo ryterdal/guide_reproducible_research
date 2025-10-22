@@ -327,5 +327,36 @@ business-critical software works correctly.
 [Docker]: https://www.docker.com/
 [Kubernetes]: https://kubernetes.io/
 
+For most projects, we recommend using an environment manager rather than
+containerization. Containerization is most useful if your research project
+needs to be reproduced by many people and uses software that isn't
+well-supported by environment managers, or if containerization is already
+widely-used and accepted in your discipline.
+
 
 ### Cloud Computing
+
+Cloud computing services such as [Google Cloud][gcloud], [Amazon Web
+Services][aws] (AWS), and [Microsoft Azure][azure] provide hardware and
+software on demand. UC Davis provides its own cloud computing service in the
+form of [Open OnDemand][ucd-cloud] and (at UC Davis Health) the Advanced
+Compute Environment (ACE). Cloud computing's primary benefit is flexibility in
+choosing and changing hardware. Most commercial cloud computing services rely
+on containerization to manage software, while Open OnDemand and ACE mostly
+leave software management to you.
+
+[gcloud]: https://cloud.google.com/
+[aws]: https://aws.amazon.com/
+[azure]: https://azure.microsoft.com/
+[ucd-cloud]: https://docs.hpc.ucdavis.edu/software/ondemand/
+
+From a reproducibility perspective, cloud computing can be beneficial in the
+short term, because (especially with commercial services) other researchers can
+easily set up and use the exact same hardware and software you used originally
+to reproduce your results. However, in the long term, the hardware you used may
+stop being available, because cloud computing services periodically update or
+change the hardware they offer.
+
+If you decide to use cloud computing, we recommend documenting the details of
+the hardware by hand, and using an environment manager or containerization to
+manage the software for your project.
