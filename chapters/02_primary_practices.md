@@ -861,11 +861,9 @@ Learn more about trustworthy data repository requirements from [CoreTrustSeal][c
 
 [cts-repositories-requirements]: https://www.coretrustseal.org/why-certification/requirements/
 
-::::{margin}
 :::{note}
-Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)```
+Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)
 :::
-::::
 
 You should also ensure your data follow FAIR principles using the following practices:
 
