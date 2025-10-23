@@ -231,27 +231,83 @@ clearer to write a separate manifest specifically for that directory.
 
 ### Document the Data
 
-In a perfect world, every data set would come with detailed documentation or
-**metadata** about how the data were collected, what assumptions were made,
-what biases might be present, any ethical concerns, the overall structure, what
-each observation means, what each feature means, and more. Good data
+**Metadata**, or data that describes data, is critical to the research process.
+It delineates how the data were collected, what assumptions were made, what
+biases might be present, any ethical concerns, the overall structure, what each
+observation means, what each feature means, and more. Good data
 documentation guides researchers towards appropriate, responsible use of the
-data.
+data in future studies.
 
-Collecting data as part of a project gives you and your collaborators control
-over how the data are documented, so you can ensure there are no gaps. If your
-project uses data collected earlier or by someone else, it's a good practice to
-fill gaps in the existing documentation with your own. Thorough documentation
-isn't just beneficial to other researchers, it's also beneficial to future
-you---small details you notice and document about features could be important
-later in the project.
+Good metadata should answer the questions who, what, when, where, why, and how.
+Though the way the metadata answers these questions will depend on your field of
+research. If you are submitting your data to a particular data repository, they
+will likely have a required metadata scheme to follow. Otherwise, pick a
+metadata scheme that aligns with other researchers in your field. If you have to
+submit a Data Management Plan, it will specifically ask how you will apply and
+adhere to field specific data standards. 
+
+If you aren't sure what the standard is in your field, there are several online
+repositories to help you out. The [Metadata Standards Catalog][msc] has a fairly
+exhaustive list of metadata schemes, which you can browse [by
+subject][msc-subject]. [Fairsharing.org][fairshare] also stores metadata and
+other documentation standards. By using an existing community standard metadata
+scheme, you make it possible for future researchers (including you!) to compare
+your data to data from other, heterogeneous, sources.
+
+Even if you don't know where your data will end up, documenting your data when
+you collect it will help ensure your documentation doesn't have any gaps. Timely
+documentation also maximizes the likelihood that your research can be
+reproduced, and that your data reused by other researchers. If your project uses
+data collected earlier or by someone else, it's a good practice to fill gaps in
+the existing documentation with your own. Thorough documentation isn't just
+beneficial to other researchers, it's also beneficial to future you---small
+details you notice and document about features could be important later in the
+project.
+
+```{figure} /images/michener_information_entropy.png
+---
+name: information-entropy
+figwidth: 550px
+align: center
+alt: 
+---
+Information Entropy (Figure 1) from ([Michener et al. 1997][michener]).
+```
+
+One of the simplest and most widely used metadata standards is the [Dublin
+Core][dublin-core], a set of 15 metadata elements originally defined at a 1995
+workshop in Dublin, Ohio. The exact definition of the Dublin Core elements can
+be a bit technical, but the University College Dublin (Ireland) Library provides
+simplified explanations and examples [here][dublin-ex]. 
+
+If all of this seems overwhelming, that's okay. The Consortium of European
+Social Science Data Archives (CESSDA) has a great [video][cessda-video] for
+those who have never documented data before. CESSDA also provides detailed
+explanations of what information to document at both project and data level in
+their [Data Management Expert Guide][cessda-guide]. This includes detailed
+information about documenting quantitative and qualitative data. Just make sure
+to expand all the collapsed sections.
+
 
 :::{seealso}
 See DataLab's [README, Write Me! workshop reader][datalab-readme] for more
 about how to document data.
+- [LibGuide][lib-metadata]
+- [Metadata Standards Catalog][msc]
+- [MIT Metadata Info][mit-metadata]
 :::
 
-[datalab-readme]: https://ucdavisdatalab.github.io/workshop_how-to-data-documentation/
+
+[lib-metadata]: https://guides.library.ucdavis.edu/data-management/documentation
+[msc]: https://rdamsc.bath.ac.uk/
+[msc-subject]: https://rdamsc.bath.ac.uk/subject-index
+[fairshare]: https://fairsharing.org/
+[michener]: https://esajournals.onlinelibrary.wiley.com/doi/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2
+[mit-metadata]: https://libraries.mit.edu/data-management/store/documentation/
+[dublin-core]: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3
+[dublin-ex]: https://libguides.ucd.ie/data/metadata
+[cessda-video]: https://www.youtube.com/watch?v=cjGz-I0GgKk
+[cessda-guide]: https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata
 
 (create-data-dictionary)=
 #### Create a Data Dictionary
