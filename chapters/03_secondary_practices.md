@@ -482,6 +482,63 @@ workshop reader][datalab-conda-remote] for even more technical details.
 
 ## Prefer Open-Source Software
 
+> You're excited to start working on a project about how a particular virus
+> spreads among domesticated poultry populations. The project seems promising,
+> because your collaborator has been collecting data for over 10 years. When
+> they send you the data, you notice that the first 3 years of data are
+> anomalous compared to the rest. You ask your collaborator about it, and they
+> mention that they used to calibrate the data with software from Big Money
+> Corporation. After 3 years, they switched to an open-source calibration
+> software, because Big Money Corp. went out of business. You'd like to confirm
+> that the calibration software from Big Money Corp. used the same algorithm as
+> the open-source calibration software, but the documentation is vague, the
+> source code is not available, and no one online seems to know. You're glad
+> your collaborator still has copies of the raw, uncalibrated data, but it
+> looks like you'll have to spend a few days running all of it through the
+> open-source calibration software.
+
+Software is **open-source** if its source code is freely available. Most
+commercial software is closed-source: only the developers have access to the
+source code. Using open-source software makes your research more reproducible
+in at least three ways:
+
+* Transparency: When you use closed-source software, you have limited insight
+  into how it actually works. The algorithms the software uses might not be the
+  ones the distributor claims, and there might be bugs in their
+  implementations. When you use open-source software, if you have these
+  concerns, you can inspect the source code yourself to determine how the
+  software works.
+
+* Longevity: The lifespan of closed-source software is entirely up to its
+  developers and distributor. In contrast, for open-source software, even if
+  the original developers retire from or abandon development, someone else can
+  step in and continue to develop the software. Many open-source software have
+  continued to receive updates for 20-30 years or more, and run well on modern
+  computers---an achievement few closed-source software can claim.
+
+* Extensibility: Whether a new feature is added to closed-source software is up
+  to the whims of its developers. With open-source software, you can add the
+  feature yourself (or hire someone else to do it). 
+
+We recommend using open-source software whenever possible because of these
+benefits. That said, make sure to take into account the norms and expectations
+of your collaborators and your discipline, and whether the available
+open-source software meets your needs. In some disciplines, closed-source
+software is widely-used, and using anything else can make it difficult to
+collaborate or to convince peers of the soundness of your work. For specialized
+tasks, closed-source software is sometimes the only software available. It's
+wonderful if you want to be an open-source trailblazer (or even developer) in
+your discipline, but make sure it's an informed decision. 
+
+:::{seealso}
+Many universities, including UC Davis, have an Open Source Program Office
+(OSPO) to train and support contributors and maintainers of open-source
+software. You can learn more about UC OSPOs at the [UC OSPO Network][ospo]
+website.
+
+[ospo]: https://ucospo.net/
+:::
+
 
 (use-a-programming-language)=
 ### Compute with Code
