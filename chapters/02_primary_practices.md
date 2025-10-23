@@ -307,7 +307,7 @@ web. Here are a selection of them:
 - [UC Davis Research Data Management LibGuide][lib-metadata]
 - [The Turing Way on Documentation and Metadata][turing-metadata]
 - [MIT Metadata Info][mit-metadata]
-- [Biomedical documentation and metadata from Harvard][harvard-metadata] 
+- [Harvard Biomedical Documentation and Metadata][harvard-metadata] 
 :::
 
 
