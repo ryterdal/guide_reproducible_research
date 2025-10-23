@@ -256,14 +256,14 @@ about how to document data.
 (create-data-dictionary)=
 #### Create a Data Dictionary
 
-A **data dictionary** is a document that explains what every field or element in
-your dataset means as well as any restrictions on their values. This includes
-things like the data type (ex. number, date, text, boolean), and whether that
-field can be missing. The more information you include, the more helpful it will
-be down the line (see [Captain Obvious][captain_o]). Data dictionaries are the
-most efficient way to communicate the structure and content of your data to
-other collaborators, including future you! A very basic one could look like 
-this:
+A **data dictionary**, part of your metadata, is a document that explains what
+every field or element in your dataset means as well as any restrictions on
+their values. This includes things like the data type (ex. number, date, text,
+boolean), and whether that field can be missing. The more information you
+include, the more helpful it will be down the line (see [Captain
+Obvious][captain_o]). Data dictionaries are the most efficient way to
+communicate the structure and content of your data to other collaborators,
+including future you! A very basic one could look like this:
 
 |Field Name |Field Description                         |Data Type   |Notes     |
 |-----------|------------------------------------------|------------|----------|
@@ -275,11 +275,13 @@ this:
 
 
 If you aren't sure where to start with creating a data dictionary, DataLab has a
-[template][datalab_dd_template] you can use as a jumping off point. [Open
-Science Framework][osf_dd] has resources on what details to add to your data
-dictionary, and the [USGS][usgs_dd] provides many examples of data dictionaries
-and how they are used in different contexts. If you are working with multiple 
-data sets, make sure to clarify which data dictionary to use with each data set.
+[template][datalab_dd_template] you can use as a jumping off point. If you
+prefer step by step instructions, Kristin Briney's [Create a Data Dictionary
+exercise][create_dd] minght be for you. [Open Science Framework][osf_dd] has
+resources on what details to add to your data dictionary, and the
+[USGS][usgs_dd] provides many examples of data dictionaries and how they are
+used in different contexts. If you are working with multiple data sets, make
+sure to clarify which data dictionary to use with each data set.
 
 If your dataset looks less like a series of rows and columns, and more like a
 long list of files, consider creating a **data inventory** instead. A data
@@ -306,6 +308,7 @@ starting point.
 [captain_o]: https://dataedo.com/blog/captain-obivous-guide-to-column-descriptions-data-dictionary-best-practices
 [datalab_dd_template]: https://docs.google.com/spreadsheets/d/12N0hKyeT0ndZnt7rVZsz7LTW--BHhbb6TOegXEKQoxE/edit?usp=sharing
 [datalab_di_template]: https://docs.google.com/spreadsheets/d/1nUb-eu82Q7VplDpk0np5rYuaN52mYHLdql18pRD0i4Y/edit?usp=sharing
+[create_dd]: https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary
 
 
 (workflows)=
