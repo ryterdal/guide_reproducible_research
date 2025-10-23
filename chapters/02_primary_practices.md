@@ -254,6 +254,17 @@ other documentation standards. By using an existing community standard metadata
 scheme, you make it possible for future researchers (including you!) to compare
 your data to data from other, heterogeneous, sources.
 
+```{note}
+Many metadata resources refer to something called a **controlled vocabulary**.
+This is a list of specific values, each with a predefined meaning. It is 
+designed to provide consistency and uniqueness across data sources. One common
+example of a controlled vocabulary is a list of geographic names, like the 
+[Thesaurus of Geographic Names (TGN)][tgn]. There are many ways you can refer to
+New York City (NYC, the Big Apple, Manhattan etc). But if you want to be able
+to group together all data about New York City, it is helpful if everyone calls
+it the same thing.
+```
+
 Even if you don't know where your data will end up, documenting your data when
 you collect it will help ensure your documentation doesn't have any gaps. Timely
 documentation also maximizes the likelihood that your research can be
@@ -308,6 +319,7 @@ about how to document data.
 [dublin-ex]: https://libguides.ucd.ie/data/metadata
 [cessda-video]: https://www.youtube.com/watch?v=cjGz-I0GgKk
 [cessda-guide]: https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata
+[tgn]: https://www.getty.edu/research/tools/vocabularies/tgn/index.html
 
 (create-data-dictionary)=
 #### Create a Data Dictionary
