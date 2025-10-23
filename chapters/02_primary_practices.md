@@ -300,12 +300,14 @@ information about documenting quantitative and qualitative data. Just make sure
 to expand all the collapsed sections.
 
 
-:::{seealso}
-See DataLab's [README, Write Me! workshop reader][datalab-readme] for more
-about how to document data.
-- [LibGuide][lib-metadata]
-- [Metadata Standards Catalog][msc]
+:::{seealso} 
+There are many additional resouces on documenting your data available on the
+web. Here are a selection of them:
+- [README, Write Me! DataLab workshop reader][datalab-readme]
+- [UC Davis Research Data Management LibGuide][lib-metadata]
+- [The Turing Way on Documentation and Metadata][turing-metadata]
 - [MIT Metadata Info][mit-metadata]
+- [Biomedical documentation and metadata from Harvard][harvard-metadata] 
 :::
 
 
@@ -320,6 +322,8 @@ about how to document data.
 [cessda-video]: https://www.youtube.com/watch?v=cjGz-I0GgKk
 [cessda-guide]: https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata
 [tgn]: https://www.getty.edu/research/tools/vocabularies/tgn/index.html
+[turing-metadata]: https://book.the-turing-way.org/reproducible-research/rdm/rdm-metadata/
+[harvard-metadata]: https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata
 
 (create-data-dictionary)=
 #### Create a Data Dictionary
