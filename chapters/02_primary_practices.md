@@ -277,7 +277,7 @@ including future you! A very basic one could look like this:
 If you aren't sure where to start with creating a data dictionary, DataLab has a
 [template][datalab_dd_template] you can use as a jumping off point. If you
 prefer step by step instructions, Kristin Briney's [Create a Data Dictionary
-exercise][create_dd] minght be for you. [Open Science Framework][osf_dd] has
+exercise][create_dd] minght be for you. [Open Science Framework (OSF)][osf_dd] has
 resources on what details to add to your data dictionary, and the
 [USGS][usgs_dd] provides many examples of data dictionaries and how they are
 used in different contexts. If you are working with multiple data sets, make
@@ -309,6 +309,13 @@ starting point.
 [datalab_dd_template]: https://docs.google.com/spreadsheets/d/12N0hKyeT0ndZnt7rVZsz7LTW--BHhbb6TOegXEKQoxE/edit?usp=sharing
 [datalab_di_template]: https://docs.google.com/spreadsheets/d/1nUb-eu82Q7VplDpk0np5rYuaN52mYHLdql18pRD0i4Y/edit?usp=sharing
 [create_dd]: https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary
+
+:::{seealso}
+See [OSF][osf_dd] and the [Research Data Management Workbook][create_dd] for how
+to create a data dictionary, UC Davis DataLab for [data
+dictionary][datalab_dd_template] and [data inventory][datalab_di_template]
+templates, and [USGS][usgs_dd] for examples.
+:::
 
 
 (workflows)=
