@@ -305,6 +305,12 @@ files with collaborators. If you {ref}`use-version-control`, then [GitHub][],
 specific privacy requirements, be careful to make sure they're satisfied when
 choosing a cloud service.
 
+:::{seealso}
+See the UC Davis Library's [Research Data Management Guide][library-rdm-backups] section on backups for more comprehensive guidance on the topic.
+
+[library-rdm-backups]: https://guides.library.ucdavis.edu/data-management/storage
+:::
+
 [gdrive]: https://drive.google.com/
 [Dropbox]: https://www.dropbox.com/
 [Box]: https://www.box.com/
