@@ -99,14 +99,14 @@ alt:
 > but it would be nice if you could automate the workflow so that you don't
 > have to type as much and you can't accidentally run the command twice.
 
-A **task runner** is a software system to organize and run tasks that use other
-software. With a task runner, you can create named tasks and specify the
-commands to run to complete each task. Later, you can run a task by simply
-referring to it by name. Using a task runner makes your results easier to
-reproduce, because by doing so, you encode the exact commands (in order) to
-carry out tasks related to your project. Others can run a task with no risk of
-accidentally skipping a command, passing the wrong arguments to a command, or
-running a command out of order.
+A **task runner** is a piece of software to organize and run tasks that use
+other (command line) software. With a task runner, you can create named tasks
+and specify the commands to run to complete each task. Later, you can run a
+task by simply referring to it by name. Using a task runner makes your results
+easier to reproduce, because by doing so, you encode the exact commands (in
+order) to carry out tasks related to your project. Others can run a task with
+no risk of accidentally skipping a command, passing the wrong arguments to a
+command, or running a command out of order.
 
 Some task runners, called **build systems**, can also keep track of dependence
 between tasks. To illustrate the idea, suppose you have a task `download` that
