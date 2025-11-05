@@ -138,8 +138,10 @@ for free to publish their data.
 [Dryad]: https://datadryad.org/stash
 
 To satisfy the "I" standard, {ref}`use-file-formats-effectively`. To satisfy
-the "R" standard, a good start is to {ref}`keep-running-notes`,
-{ref}`write-readmes` and {ref}`choose-a-license`.
+the "R" standard, a good start is to {ref}`keep-running-notes` and
+{ref}`write-readmes`.
+
+<!-- FIXME: this used to refer to choose-a-license too -->
 
 :::{seealso}
 See UC Davis Library's [Publish, Share, and Preserve Your Data
