@@ -835,7 +835,7 @@ Publishing
 -------------------
 ### Open Access 
 
-Not having access to a piece of work is the main roadblock to reproducibility. Publishing articles and the underlying data openly will allow anyone to reproduce and confirm the research, and build on the knowledge in a future project.
+Not having access to a piece of research or its underlying data and materials can be the main roadblock to reproducibility. Open access not only allows anyone to access and read the papers, but it also permits reproducibility, replicability, and the opportunity to build on or reuse all or part of your work in a future project to advance science and knowledge. Many grant providers and institutions may also require your work to be published open access.
 
 :::{important}
 **Open Licenses**
@@ -861,11 +861,9 @@ Learn more about trustworthy data repository requirements from [CoreTrustSeal][c
 
 [cts-repositories-requirements]: https://www.coretrustseal.org/why-certification/requirements/
 
-::::{margin}
 :::{note}
-Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)```
+Some data may be personal or sensitive. Do not share your data openly if they are protected, nationally or commercially sensitive, contain identifying information, or you have not obtained proper consent. You can learn more about considerations for these types of data…(maybe Turing Way?)
 :::
-::::
 
 You should also ensure your data follow FAIR principles using the following practices:
 
@@ -898,13 +896,39 @@ Review the {ref}`open-licenses` section below to learn more about publishing you
 
 #### Publish Open Access Articles
 
-Publishing an open access article reduces barriers for readers and researchers by making it freely accessible, usually through an open license. 
+Publishing an open access article reduces barriers for readers and researchers by making it freely accessible.
 
-Open access not only allows anyone to read and the papers, but it also permits reproducibility, replicability, and the opportunity to build on or reuse all or part of your work to advance science and knowledge. Many grant providers and institutions may also require your paper to be published open access.
+Publishing your work in an open access journal or as an open access monograph is known as Gold Open Access. It generally goes through the same review process that any submission would, but is then published openly, usually through an open license, so that anyone can read it without having to pay a subscription or access fee.
 
-Learn more about open access publishing, including finding reputable journals and avoiding predatory publishers, and open access support at UC Davis on our [Open Access Publishing Library Guide][open-access-guide].
+Learn more about open access publishing, including finding reputable journals and avoiding predatory publishers, and open access funding support at UC Davis on our [Open Access Publishing Library Guide][open-access-guide].
 
+##### Pre-Prints and Post-Prints
+
+Publishing research Open Access can be expensive and therefore may not always be feasible. University of California authors may have [Open Access fee assistance][open-access-guide] available to them. However, authors with no fee assistance have other options for making their work openly available and, therefore, reproducible.
+
+Authors can make their work openly available by self-archiving it somewhere accessible, such as an institutional repository or preprint server. This is also known as Green Open Access. Note that the archived version may be different than a peer-reviewed and formally published version.
+
+**Preprints** are publicly available papers that have not (yet) been peer reviewed. Usually, authors will post a paper to a preprint server under an [open license](#open-licenses) after the paper has been written and before submitting to a journal for peer review and publication. Some preprints are never submitted or accepted to a journal for formal publication.
+
+:::{important}
+Articles are often revised, sometimes significantly, during the peer-review process. A published version of an article in a journal may differ greatly from a preprint version.
+:::
+
+**Post-prints,** or author-accepted manuscripts, have been peer-reviewed and accepted for publication, then made publicly available somewhere accessible, such as an institutional repository. These versions are usually the same as or very similar to the published versions.
+
+:::{important}
+Different publishers have different policies about sharing author-accepted manuscripts, including potential embargo periods. Refer to your publisher’s policies or [Jisc’s Open Policy Finder][open-policy-finder] to understand your sharing permissions.
+:::
+
+
+:::{seealso}
+To learn more about Open Access options, the [Open Access Network][open-access-network] is a great educational resource that discusses Diamond, Gold, and Green Open Access.
+:::
+
+[open-policy-finder]: https://openpolicyfinder.jisc.ac.uk/
+[open-licenses]: {ref}`open-licenses`
 [open-access-guide]: https://guides.library.ucdavis.edu/open-access-publishing
+[open-access-network]: https://open-access.network/en/information/open-access-primers/green-and-gold
 
 (open-licenses)=
 #### Open Licenses
@@ -923,7 +947,7 @@ Many open licenses allow for any type of use and reuse, including modifications,
 [open-source-licenses]: https://opensource.org/licenses
 
 :::{seealso}
-For licensing data, writing, art, or other materials, see Creative Commons'[Choose a License page][cc-cal] for help deciding on a Creative Commons license.
+For licensing data, writing, art, or other materials, see Creative Commons' [Choose a License page][cc-cal] for help deciding on a Creative Commons license.
 
 For licensing software, see [choosealicense.com][gh-cal] to help you choose an open license (maintained by GitHub)or the Open Source Initiative's [FAQ answer about which license to choose][osi-cal].
 :::
