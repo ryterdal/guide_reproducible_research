@@ -127,9 +127,9 @@ Task runners usually have other features that are also helpful, such as:
 
 DataLab recommends [Pixi][] as a task runner for most projects, since it's
 relatively easy-to-use and also has other features related to reproducibility
-(see FIXME). For projects with many interdependent tasks, DataLab recommends
-[Snakemake][] as a build system. Many other task runners and build systems also
-exist.
+(see {numref}`FIXME`). For projects with many interdependent tasks, DataLab
+recommends [Snakemake][] as a build system. Many other task runners and build
+systems also exist.
 
 [Pixi]: https://pixi.sh/
 [Snakemake]: https://snakemake.github.io/
