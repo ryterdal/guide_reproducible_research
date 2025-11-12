@@ -67,6 +67,35 @@ which data sets will be available at the analysis stage and how they will be
 structured. Pay particular attention to whether there are any biases, ethical
 concerns, privacy concerns, licensing fees, or other issues.
 
+If you are submitting your proposal as a grant or other formal research proposal
+the organization you submit to may have specific structure requirements. If they
+don't, or if you aren't submitting your research proposal anywhere, consider the
+following as a potential outline for a scoping document:
+
+- Collaborators: List of who is working on the project and how to get in touch
+  with them
+- Background Information: What someone needs to know to understand the goals of
+  the project
+- Project Duration: How long will the project take? 
+- Data: What data sources will be used in the project? If there are ethical or 
+  privacy concerns about the data, outline them here, as well as mitigation 
+  strategies.
+- Statement of Work and Milestones: Who will do what by when. This is a good 
+  place to put a list of milestones you expect to hit during your project, with
+  approximate time points.
+- Collaborator Responsibilities: Additional responsibilities outside the 
+  statement of work can go here, like who brings the donuts :). 
+- Project Deliverables: What is the final product of the project? This could be
+  a publication, website, piece of software, infographic, or something else
+  entirely.
+- Ownership and Licensing of Work Products: Most universities and publishers.
+  For more information about licensing at UC Davis 
+- Funding Sources and Pay Schedule
+
+Not every project will require every section. However, including more
+information early on in a project will make your life easier down the line.
+ 
+
 :::{tip}
 If you use spreadsheet software like Microsoft Excel or Google Sheets to
 collect or analyze data, check out DataLab's [Excelling with Excel workshop
