@@ -92,12 +92,12 @@ alt:
 ### Use a Task Runner
 
 > You're working on a project where you receive a new dataset every few weeks.
-> Before you analyzing a dataset, you must process it with a command line
-> utility, `moo_calibrate`. You don't use `moo_calibrate` outside of this
-> project, so every time you have to run it, you struggle to remember the
-> parameters. Last time you ran `moo_calibrate`, you wrote down the parameters,
-> but it would be nice if you could automate the workflow so that you don't
-> have to type as much and you can't accidentally run the command twice.
+> Before you analyzing a dataset, you must process it with the `moo_calibrate`
+> command line software. You don't use `moo_calibrate` outside of this project,
+> so every time you have to run it, you struggle to remember the parameters.
+> Last time you ran `moo_calibrate`, you wrote down the parameters, but it
+> would be nice if you could automate the workflow so that you don't have to
+> type as much and you can't accidentally run the command twice.
 
 A **task runner** is a piece of software to organize and run tasks that use
 other (command line) software. With a task runner, you can create named tasks
