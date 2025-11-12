@@ -67,33 +67,44 @@ which data sets will be available at the analysis stage and how they will be
 structured. Pay particular attention to whether there are any biases, ethical
 concerns, privacy concerns, licensing fees, or other issues.
 
-If you are submitting your proposal as a grant or other formal research proposal
-the organization you submit to may have specific structure requirements. If they
-don't, or if you aren't submitting your research proposal anywhere, consider the
-following as a potential outline for a scoping document:
+If you are submitting your scoping document as a grant or other formal research
+proposal, the organization you submit to may have specific structure
+requirements. If they don't, or if you aren't submitting your research proposal
+anywhere, consider the following as a potential outline for a scoping document:
 
-- Collaborators: List of who is working on the project and how to get in touch
-  with them
-- Background Information: What someone needs to know to understand the goals of
-  the project
-- Project Duration: How long will the project take? 
-- Data: What data sources will be used in the project? If there are ethical or 
-  privacy concerns about the data, outline them here, as well as mitigation 
-  strategies.
-- Statement of Work and Milestones: Who will do what by when. This is a good 
+- **Collaborators:** A list of who is working on the project, including where
+  they work and how to get in touch with them.
+- **Background Information:** What someone needs to know to understand the goals
+  of the project?
+- **Project Duration:** How long will the project take? 
+- **Data:** What data sources will be used in the project? If there are ethical
+  or privacy concerns about the data, outline them here, as well as mitigation
+  strategies. If you will be collecting data, what data will you collect and 
+  how?
+- **Statement of Work and Milestones:** Who will do what by when? This is a good 
   place to put a list of milestones you expect to hit during your project, with
   approximate time points.
-- Collaborator Responsibilities: Additional responsibilities outside the 
+- **Collaborator Responsibilities:** Additional responsibilities outside the 
   statement of work can go here, like who brings the donuts :). 
-- Project Deliverables: What is the final product of the project? This could be
-  a publication, website, piece of software, infographic, or something else
+- **Project Deliverables:** What is the final product of the project? This could
+  be a publication, website, piece of software, infographic, or something else
   entirely.
-- Ownership and Licensing of Work Products: Most universities and publishers.
-  For more information about licensing at UC Davis 
-- Funding Sources and Pay Schedule
+- **Ownership and Licensing of Work Products:** Many universities, publishers,
+  and funders have requirements as to who owns research and how its products
+  should be licensed. For more information about licensing at UC Davis, check
+  out the [Open Source Program Office resources][ospo-licensing].  
+- **Funding Sources and Pay Schedule:** If money is changing hands, it is a good
+  idea to lay out the specifics of how that will happen.
 
 Not every project will require every section. However, including more
-information early on in a project will make your life easier down the line.
+information early on in a project will make your life easier down the line. In
+general, reproducibility requires you to know what you did and when. While a
+project proposal or scoping document will inevitably differ from what actually
+happens, having a starting point will make reconstructing your research process
+much easier. Additionally, don't hesitate to update your project prosposal as
+things change. Updating your plan as you figure out what works and what doesn't
+isn't a failing. It's good research practice. And your project proposal can help
+you keep track of those changes as you make them.
  
 
 :::{tip}
@@ -112,7 +123,7 @@ tables, consider using a {ref}`database<databases>` to store the data.
 :::
 
 [datalab-excel]: https://ucdavisdatalab.github.io/workshop_keeping_data_tidy/
-
+[ospo-licensing]: https://ucospo.net/oss-resources/#understanding-licensing--compliance
 
 (keep-running-notes)=
 ### Keep Running Notes
