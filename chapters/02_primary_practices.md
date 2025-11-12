@@ -231,7 +231,7 @@ clearer to write a separate manifest specifically for that directory.
 
 
 (workflows)=
-#### Workflows
+## Document the Workflows & Code
 
 A **workflow** is a way of using your project. Often this will be a series of
 commands you can run to produce a specific output. For example, if your project
@@ -273,12 +273,95 @@ command-line tool for searching within files.
 
 [rg-user-guide]: https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
 
-Although documenting workflows is listed here under the documentation
-principle, it's also closely related to the workflow automation principle.
-Documenting workflows is important because it enables you and other people to
-repeat commands you used to get a particular output. Workflow automation
-practices take this a step further by bundling all of the commands in a
-workflow into a single command.
+Documenting workflows is important for reproducibility because it enables you
+and other people to repeat commands you used to get a particular output.
+Workflow automation practices (see {ref}`FIXME`) take this a step further by
+bundling all of the commands in a workflow into a single command.
+
+
+### Make Workflow Diagrams
+
+Workflows with multiple interdependent tasks can be confusing, especially for
+people new to a project. Diagrams that lay out the sequence of and
+relationships between inputs, tasks, and outputs (as a graph, network, or flow
+chart) make understanding and using these workflows easier and faster. For
+instance, if you can't remember what the inputs are for a particular task, you
+can simply glance at the diagram.
+
+There many different ways to make workflow diagrams, including:
+
+* Sketching the diagram freehand. This is a fast, easy way to make a diagram
+  that doesn't require learning new tools. Depending on your sketching skills,
+  the resulting diagrams might look rough or be difficult to read. You might
+  sketch:
+    * On paper or a whiteboard (and take photos), which is wonderfully easy,
+      but can make editing later difficult.
+    * On a tablet (or with a mouse), which requires drawing software, but makes
+      it possible to collaborate from different locations and makes editing
+      later easier.
+* Designing the diagram in vector graphics software (such as [Lucidchart][] and
+  [Inkscape][]). This works well for editing and collaborating and can produce
+  presentation-quality diagrams. The drawbacks are that it requires everyone to
+  have a license for and learn the software, and is generally more
+  time-consuming than sketching.
+    * Presentation software (such as [Google Slides][slides] and [LibreOffice
+      Impress][impress]) are widely known and usually provide some support for
+      designing diagrams.
+* Describing the diagram in a graph language (such as [Mermaid][] and
+  [Graphviz][]). This works well for editing and collaborating and can produce
+  presentation-quality diagrams. It's more time-consuming than sketching but
+  can be less time-consuming than vector graphics software. GitHub and other
+  Git hosts often have built-in support for Mermaid. The drawbacks are that you
+  have to learn a new language, and you have less control over how the diagram
+  is drawn and laid out.
+
+[Lucidchart]: https://www.lucidchart.com/
+[Inkscape]: https://inkscape.org/
+[slides]: https://workspace.google.com/products/slides/
+[impress]: https://www.libreoffice.org/discover/impress/
+[Mermaid]: https://mermaid.js.org/
+[Graphviz]: https://graphviz.org/
+
+DataLab uses a mix of sketching, Lucidchart, Inkscape, and Mermaid, depending
+on the complexity of the diagram, who will see it, and other needs of the
+project. In general, you should choose whatever diagramming method works best
+for you (and your team)---making the diagrams is more important than how you
+make them.
+
+:::{seealso}
+See DataLab's [README, Write Me! workshop reader][datalab-readme] for
+suggestions about how to create workflow diagrams.
+:::
+
+
+### Document the Code
+
+Provide documentation for your project's code. Think about how people
+(including you) will typically use the code. Will they:
+
+* Run entire scripts?
+* Call individual functions?
+* Import your code as a package?
+* Do something else?
+* Do some combination of these?
+
+The point of the documentation is to help other people reproduce the typical
+workflows. Even if you {ref}`sec-use-a-task-runner`, documentation is important
+to help people understand what each workflow does and how it works.
+
+Use READMEs to summarize the code's purpose, intended use cases, and
+organization across files. Within each code file, explain the file's purpose,
+inputs, assumptions, outputs, and any pitfalls. If the code is organized into
+functions, do the same for each function. 
+
+Comments are a good way to document code, but some programming languages also
+have syntax or packages specifically for writing documentation. As examples,
+see Python's [docstrings][] or R's [roxygen2][] package. These tools are
+especially helpful if you plan to package your code and/or release it to a
+wider audience.
+
+[docstrings]: https://peps.python.org/pep-0257/#what-is-a-docstring
+[roxygen2]: https://roxygen2.r-lib.org/
 
 
 Artifact Preservation
