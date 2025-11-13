@@ -213,14 +213,15 @@ software.
 
 An **environment manager** is a software tool to create, keep track of and
 switch between collections of software. These collections of software are
-called **virtual environments**. When you create a virtual environment, and as
-you install software into it, the environment manager records the names and
-versions of the software (and sometimes other details). Most environment
-managers can also save this metadata to a file that fully describes the virtual
-environment. You can then use the file and the environment manager to reproduce
-the virtual environment on other computers. In short, using an environment
-manager directly addresses the need to document the software in your computing
-environment by doing the most tedious parts for you.
+called **virtual environments**. When you create a virtual environment, it's
+empty, with minimal or no software installed. As you install software into it,
+the environment manager records the names and versions of the software (and
+sometimes other details). Most environment managers can also save this metadata
+to a file that fully describes the virtual environment. You can then use the
+file and the environment manager to reproduce the virtual environment on other
+computers. In short, using an environment manager directly addresses the need
+to document the software in your computing environment by doing the most
+tedious parts for you.
 
 Besides making your computing environment easier to reproduce, using an
 environment manager also provides several other benefits:
