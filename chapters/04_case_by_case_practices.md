@@ -143,12 +143,12 @@ easier to:
 * Revisit old projects, whether to reexamine results or to repurpose methods
 * Reach a wide audience (especially if you want others to use your software)
 
-Modern computer operating systems and programming languages provide
-abstractions that hide hardware idiosyncrasies, so for making research
-reproducible, software is usually the primary concern---with exceptions for
-projects that rely on uncommon or specialized hardware. So at a minimum, for
-each computer you use in your research, you should document the name and
-version of:
+Modern operating systems are designed to ensure that software runs correctly
+across a wide variety of hardware, so they provide abstraction layers that hide
+hardware differences. As a result, for making research reproducible, software
+is usually the primary concern (with the exception of projects that rely on
+rare or specialized hardware). So at a minimum, for each computer you use in
+your research, you should document the name and version of:
 
 * The computer operating system
 * All other software you use to arrive at your results, including application
