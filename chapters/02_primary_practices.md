@@ -233,18 +233,21 @@ clearer to write a separate manifest specifically for that directory.
 (workflows)=
 ## Document the Workflows & Code
 
+> Suppose you're working on a study of passenger rail systems in the United
+> States. You use 3 scripts to produce plots that summarize how often trains
+> are late and how late they are for various cities. The scripts must be run in
+> a specific order and with specific arguments. A new student is about to join
+> the project, and you need to make sure they're able to run the scripts and
+> make the plots.
+
 A **workflow** is a way of using your project. Often this will be a series of
-commands you can run to produce a specific output. For example, if your project
-is a study of passenger rail systems in the U.S., you might have three scripts
-that you run in a specific order and with specific parameters in order to
-produce a plot that summarizes how often trains are late and how late they are
-for lines in Chicago. Remembering the order in which to run commands and the
-settings for each one might seem easy while your project only has a few
-workflows and you use them frequently. If your project grows or you spend time
-away from it, you may find it much harder to remember what to do. Moreover,
-your collaborators may have a hard time remembering how to run a workflow you
-set up, and vice-versa. Thus it's important to document your project's
-workflows.
+commands you can run to produce a specific output. Remembering the order in
+which to run commands and the settings for each one might seem easy while your
+project only has a few workflows and you use them frequently. If your project
+grows or you spend time away from it, you may find it much harder to remember
+what to do. Moreover, your collaborators may have a hard time remembering how
+to run a workflow you set up, and vice-versa. Thus it's important to document
+your project's workflows.
 
 There's one workflow that's essential to almost every project: downloading the
 files and installing the necessary software. It's a good idea to provide
