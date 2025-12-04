@@ -72,7 +72,7 @@ proposal, the organization you submit to may have specific structure
 requirements. If they don't, or if you aren't submitting your research proposal
 anywhere, consider the following as a potential outline for a scoping document:
 
-- **Collaborators:** A list of who is working on the project, including where
+- **Collaborators:** Who is working on the project? Include where
   they work and how to get in touch with them.
 - **Background Information:** What does someone need to know to understand the goals
   of the project?
