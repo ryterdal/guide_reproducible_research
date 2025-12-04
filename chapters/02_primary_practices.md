@@ -103,7 +103,7 @@ project proposal or scoping document will inevitably differ from what actually
 happens, having a starting point will make reconstructing your research process
 much easier. Additionally, don't hesitate to update your project prosposal as
 things change. Updating your plan as you figure out what works and what doesn't
-isn't a failing. It's good research practice. And your project proposal can help
+isn't a failing -- it's good research practice. And your project proposal can help
 you keep track of those changes as you make them.
  
 
