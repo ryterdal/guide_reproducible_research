@@ -83,7 +83,7 @@ anywhere, consider the following as a potential outline for a scoping document:
   how?
 - **Statement of Work and Milestones:** Who will do what by when? This is a good 
   place to describe key deliverables and associated milestones you expect to accomplish, with
-  approximate time points.
+  approximately when they will be achieved.
 - **Collaborator Responsibilities:** Additional responsibilities outside the 
   statement of work can go here, like who brings the donuts :). 
 - **Project Deliverables:** What is the final product of the project? This could
