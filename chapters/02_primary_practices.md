@@ -78,7 +78,7 @@ anywhere, consider the following as a potential outline for a scoping document:
   of the project?
 - **Project Duration:** How long will the project take? 
 - **Data:** What data sources will be used in the project? If there are ethical
-  or privacy concerns about the data, outline them here, as well as mitigation
+  or privacy concerns about the data, outline them here and describe mitigation
   strategies. If you will be collecting data, what data will you collect and 
   how?
 - **Statement of Work and Milestones:** Who will do what by when? This is a good 
