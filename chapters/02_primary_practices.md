@@ -74,7 +74,7 @@ anywhere, consider the following as a potential outline for a scoping document:
 
 - **Collaborators:** A list of who is working on the project, including where
   they work and how to get in touch with them.
-- **Background Information:** What someone needs to know to understand the goals
+- **Background Information:** What does someone need to know to understand the goals
   of the project?
 - **Project Duration:** How long will the project take? 
 - **Data:** What data sources will be used in the project? If there are ethical
