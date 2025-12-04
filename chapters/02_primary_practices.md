@@ -82,7 +82,7 @@ anywhere, consider the following as a potential outline for a scoping document:
   strategies. If you will be collecting data, what data will you collect and 
   how?
 - **Statement of Work and Milestones:** Who will do what by when? This is a good 
-  place to put a list of milestones you expect to hit during your project, with
+  place to describe key deliverables and associated milestones you expect to accomplish, with
   approximate time points.
 - **Collaborator Responsibilities:** Additional responsibilities outside the 
   statement of work can go here, like who brings the donuts :). 
