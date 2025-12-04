@@ -265,19 +265,19 @@ stable.
 (databases)=
 #### Databases
 
-A **database** is a data set together with specialized software to help you
-work with the data set. Databases can:
+A **database** is an organized collection of data stored with specialized software that helps you
+do things like query and update the data. Databases can:
 
 
 * create a definitive version of your data that multiple people can access
 without creating conflicts.
 
-* provide quality control measures to make sure typos don't get introduced into
+* provide quality control measures to reduce input errors and make sure typos don't get introduced into
 your data.
 
-* query millions of observations in seconds (unlike Excel or Google Sheets).
+* query millions of observations in seconds (which you can't do in Excel or Google Sheets!).
 
-* store data more efficiently than regular files
+* store data more efficiently than regular files.
 
 * control who has access to your data, and what they can do with it, on a very
 granular level.
@@ -293,7 +293,7 @@ easily give the public read only access to your finalized data products, while
 keeping the raw or unprocessed data only accessible to your collaborators.
 
 Historically, databases were restricted to primarily tabular data (rows and
-columns), in what are called relational databases. In recent years though, new
+columns), in what are called **relational databases**. In recent years though, new
 types of databases have come on the scene that can efficiently store all sorts
 of different data, including nested or tree based data, graph data, and
 unstructured text. The type of data you have will inform what kind of
@@ -303,7 +303,7 @@ database would be best for you, which you can find out more about in the
 Many, if not most, database systems have graphical user interface software to
 make it easier to interace with the database. But, to get the most out of a
 database, it is helpful to the query langauge associated with your database of
-choice. For relational databases this is SQL. To get get started with SQL, see
+choice. For relational databases this is SQL, which stands for Structured Query Language. To get get started with SQL, see
 [Introduction to SQL for Querying Databases workshop reader][datalab-sql].
 Non-relational (SQL-based) databases use a variety of langauges to write
 queries. MongoDB, a document based database, uses MQL, which you can learn in
