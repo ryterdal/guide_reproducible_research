@@ -73,7 +73,7 @@ requirements. If they don't, or if you aren't submitting your research proposal
 anywhere, consider the following as a potential outline for a scoping document:
 
 - **Collaborators:** Who is working on the project? Include where
-  they work and how to get in touch with them.
+  they work and how to get in touch with them. Typically this will include their email address.
 - **Background Information:** What does someone need to know to understand the goals
   of the project?
 - **Project Duration:** How long will the project take? 
