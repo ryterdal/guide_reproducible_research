@@ -85,7 +85,7 @@ anywhere, consider the following as a potential outline for a scoping document:
   place to describe key deliverables and associated milestones you expect to accomplish, with
   approximately when they will be achieved.
 - **Collaborator Responsibilities:** Additional responsibilities outside the 
-  statement of work can go here, like who brings the donuts :). 
+  statement of work can go here, like who will complete periodic stakeholder updates and funder reports, or who brings the donuts to the team meetings. :) 
 - **Project Deliverables:** What is the final product of the project? This could
   be a publication, website, piece of software, infographic, or something else
   entirely.
