@@ -282,7 +282,8 @@ figwidth: 550px
 align: center
 alt: 
 ---
-Information Entropy (Figure 1) from ([Michener et al. 1997][michener]).
+Information Entropy (Figure 1) from ([Michener et al. 1997][michener]) &copy; 
+1997 by the Ecological Society of America.
 ```
 
 One of the simplest and most widely used metadata standards is the [Dublin
