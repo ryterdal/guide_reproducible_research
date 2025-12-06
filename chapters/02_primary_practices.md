@@ -285,10 +285,10 @@ sure to clarify which data dictionary to use with each data set.
 
 If your dataset looks less like a series of rows and columns, and more like a
 long list of files, consider creating a **data inventory** instead. A data
-inventory should include the author or source, title, publication year (if
-published), and file name for each file, but can include more file metadata as
-necessary. A data inventory for a public domain fiction data set would look
-something like this.
+inventory should include the author or source, title, publication year and DOI
+(if published), and file name for each file, and can include more file metadata
+as necessary. For example, a data inventory for works of fiction in the public
+domain could look something like this.
 
 |Author              |Title               |Year |Filename                                  |
 |--------------------|--------------------|-----|------------------------------------------|
@@ -300,7 +300,7 @@ something like this.
 
 If you also need to keep track of things like the provenance or license
 associated with each file or data set, DataLab's 
-[data inventory template][datalab_di_template] provides a pretty comprehensive
+[data inventory template][datalab_di_template] provides a comprehensive
 starting point. 
 
 [osf_dd]: https://help.osf.io/article/217-how-to-make-a-data-dictionary
