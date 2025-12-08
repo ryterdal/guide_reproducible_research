@@ -291,6 +291,12 @@ chart) make understanding and using these workflows easier and faster. For
 instance, if you can't remember what the inputs are for a particular task, you
 can simply glance at the diagram.
 
+It's usually a good idea to make more than one workflow diagram. Use separate
+diagrams for independent workflows, and make multiple diagrams at different
+levels of abstraction. Diagrams at different levels are especially helpful for
+explaining workflows where some of the steps are relatively complex in their
+own right.
+
 There many different ways to make workflow diagrams, including:
 
 * Sketching the diagram freehand. This is a fast, easy way to make a diagram
@@ -315,8 +321,8 @@ There many different ways to make workflow diagrams, including:
   presentation-quality diagrams. It's more time-consuming than sketching but
   can be less time-consuming than vector graphics software. GitHub and other
   Git hosts often have built-in support for Mermaid. The drawbacks are that you
-  have to learn a new language, and you have less control over how the diagram
-  is drawn and laid out.
+  have to (learn and) use yet another language, and you have less control over
+  how the diagram is drawn and laid out.
 
 [Lucidchart]: https://www.lucidchart.com/
 [Inkscape]: https://inkscape.org/
