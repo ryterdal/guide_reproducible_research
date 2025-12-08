@@ -359,15 +359,29 @@ workflows. Even if you {ref}`sec-use-a-task-runner`, documentation is important
 to help people understand what each workflow does and how it works.
 
 Use READMEs to summarize the code's purpose, intended use cases, and
-organization across files. Within each code file, explain the file's purpose,
-inputs, assumptions, outputs, and any pitfalls. If the code is organized into
-functions, do the same for each function. 
+organization across files. See {ref}`FIXME` for more about how to write
+READMEs.
 
-Comments are a good way to document code, but some programming languages also
-have syntax or packages specifically for writing documentation. As examples,
-see Python's [docstrings][] or R's [roxygen2][] package. These tools are
-especially helpful if you plan to package your code and/or release it to a
-wider audience.
+Most programming languages support comments as a way to intersperse
+documentation with code. Use comments to explain, in natural language, what
+your code is meant to do. This is especially important for parts of the code
+that are terse, complicated, or potentially counter-intuitive. An excellent
+programming strategy is to first write comments outlining the steps you want to
+complete, and then fill in the code between the comments; this strategy is a
+form of **[literate programming][lit]**.
+
+[lit]: https://en.wikipedia.org/wiki/Literate_programming
+
+Place comments at the beginning of each code file to explain the file's
+purpose, inputs, assumptions, outputs, and any pitfalls. If the code is
+organized into functions, do the same for each function. Some programming
+languages have syntax or packages specifically for writing this kind of
+documentation. These tools typically enforce some kind of organization and
+remind you about important details to include. They can also make it easier for
+others to find your documentation by making it available through the language's
+built-in help system. Python's [docstrings][] and R's [roxygen2][] package are
+examples of such tools. This kind of documentation is essential if you plan to
+package your code and/or release it to a wider audience.
 
 [docstrings]: https://peps.python.org/pep-0257/#what-is-a-docstring
 [roxygen2]: https://roxygen2.r-lib.org/
