@@ -432,36 +432,47 @@ code, and an overview of what's included with the code.
 ### Choose an Open-Source License
 
 A **license** is a legal document that grants others permission to do, use, or
-possess something. If you plan to make your code widely or publicly available,
-it's a good idea to select a license so that you can retain some control over
-how it's used and protect yourself against certain kinds of legal claims.
+possess something. If you plan to make your code or other research materials
+widely/publicly available, it's a good idea to select a license so that you can
+retain some control over how they're used and ensure you receive proper credit.
+
+An **open-source** license is one which guarantees that people can freely
+access, distribute, and create derivatives of a project and its source
+materials. For software, the source material is code. By making the code
+available, open-source licenses provide complete transparency about how the
+software works. They also encourage people to collaborate on the development
+and maintenance of the project. With an open-source license, a project can
+remain vibrant and continue to grow even if the original authors stop
+participating. For all of these reasons, choosing an open-source license is a
+best practice for reproducible research.
+
+DataLab uses open-source licenses for a majority of our projects, whether they
+consist of software or other content (like this reader).
 
 Different kinds of licenses are appropriate for different kinds of content.
 There are licenses designed specifically for software and code, as well as
-licenses for other media.
+licenses for other media. Different licenses also put different conditions on
+use and redistribution. For instance, some licenses restrict commercial use and
+redistribution.
 
-An **open-source** license is one that mandates access to or distribution of
-original sources for any derivative products. For software, this means that the
-original source code must be accessible. Open-source licenses ensure that
-software can continue to be maintained and extended even if the original
-developers cease development. They also benefit transparency and collaboration,
-since anyone with the software can inspect and modify the code.
-
-DataLab uses open-source licenses for a majority of our projects, whether they
-consist of software or other materials (like this reader).
-
-:::{seealso}
-For licensing software, see [choosealicense.com][gh-cal] (maintained by GitHub)
-or the Open Source Initiative's [FAQ answer about which license to
-choose][osi-cal].
-
-For licensing data, writing, art, or other materials, see Creative Commons'
-[Choose a License page][cc-cal].
-:::
+Choosing a license might seem daunting because so many different licenses
+exist, but there are lots of resources available to help. A good starting point
+is [choosealicense.com][gh-cal] (maintained by GitHub). Popular licenses tend
+to be a good choice because they've withstood the test of time and are familiar
+to many people. For software, the GNU Public License (GPL) and MIT License are
+particularly popular. For data, writing, art, and other content, [Creative
+Commons licenses][cc-cal] are popular; section {ref}`FIXME` provides more
+details about licensing non-software content.
 
 [gh-cal]: https://choosealicense.com/
-[osi-cal]: https://opensource.org/faq/#which-license
 [cc-cal]: https://creativecommons.org/choose/
+
+:::{seealso}
+See also the Open Source Initiative's [FAQ answer about which license to
+choose][osi-cal] for even more about licensing software.
+
+[osi-cal]: https://opensource.org/faq/#which-license
+:::
 
 
 #### Package the Code
