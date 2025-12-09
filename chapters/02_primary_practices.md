@@ -305,6 +305,12 @@ files with collaborators. If you {ref}`use-version-control`, then [GitHub][],
 specific privacy requirements, be careful to make sure they're satisfied when
 choosing a cloud service.
 
+:::{seealso}
+See the UC Davis Library's [Research Data Management Guide][library-rdm-backups] section on backups for more comprehensive guidance on the topic.
+
+[library-rdm-backups]: https://guides.library.ucdavis.edu/data-management/storage
+:::
+
 [gdrive]: https://drive.google.com/
 [Dropbox]: https://www.dropbox.com/
 [Box]: https://www.box.com/
@@ -569,6 +575,15 @@ choosing a directory structure, consider the specific needs of your project,
 your collaborators, and your audience. Make sure to document whatever directory
 structure you decide to use in your project's README (see
 {numref}`file-manifests`).
+
+If your research is more qualitative in nature than quantitive, the same basic 
+principles of organization apply. However the overall goal may be to show iterative 
+analysis, reflection, and ethical managment of sensitive materials rather than rigid
+data pipeline processng. For instance, your directory structure might include:
+
+* `data/` which includes `interviews/`, `fieldnotes/`, and `documents/`
+* `coding/` which includes `themes/` and `memos/`
+* `outputs/` which includes `analysis_summaries/` and `reports/`
 
 :::{seealso}
 For more examples of directory structures, see:
