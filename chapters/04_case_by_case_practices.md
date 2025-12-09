@@ -490,7 +490,7 @@ If your research uses a single programming language, look into the best way to
 package code for that language. If it uses multiple languages, packaging the
 code separately for each language is often a good choice. If you're not sure
 what kind of packaging to use, the Conda format might be a good choice, since
-it's language-agnostic and the conda-forge maintainers provide [documentation
+it's language-agnostic, and the conda-forge maintainers provide [documentation
 about how to create a package][conda-forge-docs].
 
 [conda-forge-docs]: https://conda-forge.org/docs/maintainer/adding_pkgs/
