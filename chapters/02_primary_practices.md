@@ -99,12 +99,13 @@ tables, consider using a {ref}`database<databases>` to store the data.
 > had detailed notes to refresh your memory as to why treatment Z isn't
 > relevant.
 
-Set up one or more running notes documents when you set up your project. Use
-the notes to keep track of things you've tried, things you want to try,
-decisions, relevant references, and more. If you have collaborators, take notes
-about your meetings. Record anything there's a chance you'll want to remember
-later: results (positive or negative), new ideas, new leads, decisions, changes
-of plan, action items, and scheduling details.
+A **research log** is a collection of running notes about your progress on your
+research project. You can set up one or more notes documents when you set up
+your project. Use the notes to keep track of things you've tried, things you
+want to try, decisions, relevant references, and more. If you have
+collaborators, take notes about your meetings. Record anything there's a chance
+you'll want to remember later: results (positive or negative), new ideas, new
+leads, decisions, changes of plan, action items, and scheduling details.
 
 <!--
 Whether you take notes on paper or digitally, the important thing is that you
