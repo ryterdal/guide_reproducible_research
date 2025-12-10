@@ -86,54 +86,121 @@ tables, consider using a {ref}`database<databases>` to store the data.
 
 
 (keep-running-notes)=
-### Keep Running Notes
+### Keep a Research Log
 
-Set up one or more running notes documents when you set up your project. Use
-the notes to keep track of things you've tried, things you want to try,
-relevant references, and more. If you're working alone, these notes are just
-for you---think of them as an external hard drive for your brain. Organize the
-notes in whatever way works best for you. One thing that can be helpful is to
-include the date whenever you add to the notes.
+> You're part of a lab working on a research project that began three years
+> ago. When you were introducing a new graduate student to the project this
+> morning, they asked whether the lab considered investigating treatment Z,
+> because they've seen lots of excitement about it in recent literature. You
+> remember mentioning treatment Z to the principal investigator a few years ago
+> and eventually deciding not to pursue it, but can't remember when or why you
+> made that decision. Now you're wondering whether your decision was too hasty
+> and reviewers will question why treatment Z wasn't considered. If only you
+> had detailed notes to refresh your memory as to why treatment Z isn't
+> relevant.
 
-:::{tip}
-Reference management software like [Zotero][] are helpful for organizing and
-searching references.
+A **research log** is a collection of running notes about your progress on your
+research project. You can set up one or more notes documents when you set up
+your project. Use the notes to keep track of things you've tried, things you
+want to try, decisions, relevant references, and more. If you have
+collaborators, take notes about your meetings. Record anything there's a chance
+you'll want to remember later: results (positive or negative), new ideas, new
+leads, decisions, changes of plan, action items, and scheduling details.
+
+<!--
+Whether you take notes on paper or digitally, the important thing is that you
+take notes.
+-->
+
+When you start a notes document, make sure to consider whether you'll need to
+include figures, code, or other media, and choose an appropriate format. Paper
+notes are convenient for diagramming and doodling, and can be digitized after
+the fact to share with the team. Digital notes are convenient for collaborating
+with team members who aren't physically present, and can be shared as they are
+being written.
+
+:::{admonition} For Collaboration
+:class: important
+Put some thought into what note-taking methods work best for everyone engaged
+with the project. It's good to share notes with the entire team, so that
+everyone can contribute and misunderstandings can be corrected quickly, unless
+your research topic or data require restricting access.
+
+Take notes during meetings. Some people like to take notes during meetings,
+while others prefer to take summary notes immediately after, so that they can
+be fully engaged. Collaborating on notes or rotating who takes notes in each
+meeting can help lessen the burden, but having a designated note-taker can help
+ensure consistency.
 :::
 
-[Zotero]: https://www.zotero.org/
+One way to keep your notes digitally is to use **electronic lab notebook**
+(ELN) software, which provide a searchable interface for entering notes. Most
+ELNs automatically capture metadata about notes, such as the date and time they
+were written, and can also store experimental data. Some also have other
+features, such as file storage and sharing, version control, and publishing
+tools. Depending on your discipline and research topic, you might be expected
+or required to use a specific ELN system.
+
+:::{seealso}
+See the [Electronic Lab Notebooks][ELN] section of the UC Davis Library's
+Research Data Management guide to learn more about ELNs.
+
+[ELN]: https://guides.library.ucdavis.edu/data-management/electronic-lab-notebooks
+:::
+
+Another way to keep notes digitally is to use **issue tracking** software.
+Issue tracking software were originally created to keep track of and help
+organize work to be done, or "issues", in (large) software development
+projects. However, most work equally well for keeping track of work in
+computational research projects. Services such as [GitHub][], [GitLab][], and
+[Tangled][] provide issue tracking.
+
+[Tangled]: https://tangled.org/
+
+:::{seealso}
+See the [Working with GitHub][issues] section of DataLab's Git for Teams
+workshop reader to learn more about issue tracking.
+
+[issues]: https://ucdavisdatalab.github.io/workshop_reproducible_research/chapters/git-for-teams/02_working-with-github.html
+:::
 
 
-Whether you take notes on paper or digitally, the important thing is that you
-take notes. Paper notes are convenient for diagramming and doodling, and can be
-digitized after the fact to share with the team. Digital notes are convenient
-for collaborating with team members who aren't physically present, and can be
-shared as they are being written. When you start a notes document, make sure to
-consider whether you'll need to include figures, code, or other media, and
-choose an appropriate format. At DataLab, we frequently use paper notes, Google
-Docs, and [Markdown][].
-
-[Markdown]: https://commonmark.org/
 
 
-#### For Collaborations
+(document-every-experiment)=
+#### Document Every Experiment
 
-If you have collaborators, take notes about your meetings. Record anything
-there's a chance you'll want to remember later: results (positive or negative),
-new ideas, new leads, decisions, changes of plan, action items, and scheduling
-details.
+:::{note}
+An "experiment" doesn't necessarily have to be an experiment done in a lab.
+Doing an experiment could mean running a simulation, testing a model, or
+something else.
+:::
 
-Consider what note-taking method works best for everyone. Some people like to
-take notes during meetings, while others prefer to take summary notes
-immediately after, so that they can be fully engaged. Collaborating on notes or
-rotating who takes notes in each meeting can help lessen the burden, but having
-a designated note-taker can help ensure consistency.
+In your notes, keep a record of every experiment that you do. Document
+parameters, the results, and anything else you think is relevant for:
 
-It's usually a good idea to share the notes with everyone who attended the
-meeting, so that misunderstandings can be corrected quickly. You can do this by
-having a shared notes document or by sending out the notes after each meeting.
-If you use a shared notes document, make sure it's in a format everyone can
-access and edit; some collaborators may not be comfortable working with
-Markdown or other plain-text formats.
+* Repeating experiments in the future. Research projects are often
+  iterative---you may need to repeat an experiment to make adjustments to a few
+  parameters or because you discovered a bug in your code.
+
+* Comparing across experiments. Think of the documentation as a high-level
+  overview of your project. Use it to get a sense of which experiments had
+  promising results, which didn't, and which you might want to try next.
+
+* Avoiding redundant work. By keeping track of what's already been done, you
+  can avoid accidentally and unnecessarily repeating an experiment that you or
+  your collaborators have already done.
+
+Get in the habit of recording experiments as soon as you start to plan them,
+and recording the results as soon as they finish. Assign a unique name or
+number to each experiment so that you can reference specific experiments in
+your other notes and files. If you have collaborators, make sure they can
+access the documentation and understand how to use it.
+
+:::{tip}
+ELNs or spreadsheets are often a good format for this kind of documentation,
+since they're convenient for data entry.
+:::
 
 
 (write-readmes)=
@@ -231,20 +298,23 @@ clearer to write a separate manifest specifically for that directory.
 
 
 (workflows)=
-#### Workflows
+## Document the Workflows & Code
+
+> Suppose you're working on a study of passenger rail systems in the United
+> States. You use 3 scripts to produce plots that summarize how often trains
+> are late and how late they are for various cities. The scripts must be run in
+> a specific order and with specific arguments. A new student is about to join
+> the project, and you need to make sure they're able to run the scripts and
+> make the plots.
 
 A **workflow** is a way of using your project. Often this will be a series of
-commands you can run to produce a specific output. For example, if your project
-is a study of passenger rail systems in the U.S., you might have three scripts
-that you run in a specific order and with specific parameters in order to
-produce a plot that summarizes how often trains are late and how late they are
-for lines in Chicago. Remembering the order in which to run commands and the
-settings for each one might seem easy while your project only has a few
-workflows and you use them frequently. If your project grows or you spend time
-away from it, you may find it much harder to remember what to do. Moreover,
-your collaborators may have a hard time remembering how to run a workflow you
-set up, and vice-versa. Thus it's important to document your project's
-workflows.
+commands you can run to produce a specific output. Remembering the order in
+which to run commands and the settings for each one might seem easy while your
+project only has a few workflows and you use them frequently. If your project
+grows or you spend time away from it, you may find it much harder to remember
+what to do. Moreover, your collaborators may have a hard time remembering how
+to run a workflow you set up, and vice-versa. Thus it's important to document
+your project's workflows.
 
 There's one workflow that's essential to almost every project: downloading the
 files and installing the necessary software. It's a good idea to provide
@@ -273,12 +343,115 @@ command-line tool for searching within files.
 
 [rg-user-guide]: https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md
 
-Although documenting workflows is listed here under the documentation
-principle, it's also closely related to the workflow automation principle.
-Documenting workflows is important because it enables you and other people to
-repeat commands you used to get a particular output. Workflow automation
-practices take this a step further by bundling all of the commands in a
-workflow into a single command.
+Documenting workflows is important for reproducibility because it enables you
+and other people to repeat commands you used to get a particular output.
+Workflow automation practices (see {ref}`FIXME`) take this a step further by
+bundling all of the commands in a workflow into a single command.
+
+
+### Make Workflow Diagrams
+
+Workflows with multiple interdependent tasks can be confusing, especially for
+people new to a project. Diagrams that lay out the sequence of and
+relationships between inputs, tasks, and outputs (as a graph, network, or flow
+chart) make understanding and using these workflows easier and faster. For
+instance, if you can't remember what the inputs are for a particular task, you
+can simply glance at the diagram.
+
+It's usually a good idea to make more than one workflow diagram. Use separate
+diagrams for independent workflows, and make multiple diagrams at different
+levels of abstraction. Diagrams at different levels are especially helpful for
+explaining workflows where some of the steps are relatively complex in their
+own right.
+
+There many different ways to make workflow diagrams, including:
+
+* Sketching the diagram freehand. This is a fast, easy way to make a diagram
+  that doesn't require learning new tools. Depending on your sketching skills,
+  the resulting diagrams might look rough or be difficult to read. You might
+  sketch:
+    * On paper or a whiteboard (and take photos), which is wonderfully easy,
+      but can make editing later difficult.
+    * On a tablet (or with a mouse), which requires drawing software, but makes
+      it possible to collaborate from different locations and makes editing
+      later easier.
+* Designing the diagram in vector graphics software (such as [Lucidchart][] and
+  [Inkscape][]). This works well for editing and collaborating and can produce
+  presentation-quality diagrams. The drawbacks are that it requires everyone to
+  have a license for and learn the software, and is generally more
+  time-consuming than sketching.
+    * Presentation software (such as [Google Slides][slides] and [LibreOffice
+      Impress][impress]) are widely known and usually provide some support for
+      designing diagrams.
+* Describing the diagram in a graph language (such as [Mermaid][] and
+  [Graphviz][]). This works well for editing and collaborating and can produce
+  presentation-quality diagrams. It's more time-consuming than sketching but
+  can be less time-consuming than vector graphics software. GitHub and other
+  Git hosts often have built-in support for Mermaid. The drawbacks are that you
+  have to (learn and) use yet another language, and you have less control over
+  how the diagram is drawn and laid out.
+
+[Lucidchart]: https://www.lucidchart.com/
+[Inkscape]: https://inkscape.org/
+[slides]: https://workspace.google.com/products/slides/
+[impress]: https://www.libreoffice.org/discover/impress/
+[Mermaid]: https://mermaid.js.org/
+[Graphviz]: https://graphviz.org/
+
+DataLab uses a mix of sketching, Lucidchart, Inkscape, and Mermaid, depending
+on the complexity of the diagram, who will see it, and other needs of the
+project. In general, you should choose whatever diagramming method works best
+for you (and your team)---making the diagrams is more important than how you
+make them.
+
+:::{seealso}
+See DataLab's [README, Write Me! workshop reader][datalab-readme] for
+suggestions about how to create workflow diagrams.
+:::
+
+
+### Document the Code
+
+Provide documentation for your project's code. Think about how people
+(including you) will typically use the code. Will they:
+
+* Run entire scripts?
+* Call individual functions?
+* Import your code as a package?
+* Do something else?
+* Do some combination of these?
+
+The point of the documentation is to help other people reproduce the typical
+workflows. Even if you {ref}`sec-use-a-task-runner`, documentation is important
+to help people understand what each workflow does and how it works.
+
+Use READMEs to summarize the code's purpose, intended use cases, and
+organization across files. See {ref}`FIXME` for more about how to write
+READMEs.
+
+Most programming languages support comments as a way to intersperse
+documentation with code. Use comments to explain, in natural language, what
+your code is meant to do. This is especially important for parts of the code
+that are terse, complicated, or potentially counter-intuitive. An excellent
+programming strategy is to first write comments outlining the steps you want to
+complete, and then fill in the code between the comments; this strategy is a
+form of **[literate programming][lit]**.
+
+[lit]: https://en.wikipedia.org/wiki/Literate_programming
+
+Place comments at the beginning of each code file to explain the file's
+purpose, inputs, assumptions, outputs, and any pitfalls. If the code is
+organized into functions, do the same for each function. Some programming
+languages have syntax or packages specifically for writing this kind of
+documentation. These tools typically enforce some kind of organization and
+remind you about important details to include. They can also make it easier for
+others to find your documentation by making it available through the language's
+built-in help system. Python's [docstrings][] and R's [roxygen2][] package are
+examples of such tools. This kind of documentation is essential if you plan to
+package your code and/or release it to a wider audience.
+
+[docstrings]: https://peps.python.org/pep-0257/#what-is-a-docstring
+[roxygen2]: https://roxygen2.r-lib.org/
 
 
 Artifact Preservation
@@ -723,131 +896,8 @@ point functions across all of your scripts.
 See https://speakerdeck.com/jennybc/zen-and-the-art-of-workflow-maintenance?slide=56
 -->
 
+## Publishing
 
-Workflow Automation
--------------------
-
-(use-a-programming-language)=
-### Compute with Code
-
-:::{note}
-This practice is recommended for projects that involve computations. If your
-project doesn't, or if all computations are handled by specialized software,
-then you might not need a programming language.
-
-Nevertheless, we've included writing code as a primary practice to emphasize
-that it's uniquely important for reproducibility if your project does involve
-computations.
-:::
-
-Code is an explicit, unambiguous record of every step in a computation. This is
-a major benefit for reproducible research. You can share your code with someone
-else, and if they run it with all of the same inputs, they'll get the same
-outputs. The same is difficult or impossible to achieve using software that has
-a graphical user interface.
-
-Another benefit of programming is that code is reusable and often scalable. If
-you write code to solve a general problem, you can then apply it to any number
-of specific instances of that problem. The only constraints are time and the
-computing resources available to you. Most popular programming languages have
-supportive, active communities that create and distribute thousands of
-user-contributed packages, so often it's not even necessary to solve a problem
-yourself---you can reuse someone else's code.
-
-::::{grid}
-:::{grid-item}
-```{image} /images/logo_r.png
-:alt:
-:width: 50%
-:align: center
-```
-:::
-
-:::{grid-item}
-```{image} /images/logo_python_device.svg
-:alt:
-:width: 40%
-:align: center
-```
-:::
-
-:::{grid-item}
-```{image} /images/logo_julia.svg
-:alt:
-:width: 50%
-:align: center
-```
-:::
-::::
-
-:::{margin}
-```{note}
-A **high-level** programming language is one which uses abstractions to hide
-most of the details of the hardware.
-```
-:::
-
-Choosing a programming language doesn't just mean choosing a particular syntax,
-it also means choosing a community and ecosystem. Different languages have
-different strengths, weaknesses, community cultures, and packages. We recommend
-choosing an open-source, high-level language designed for research computing
-and data analysis, such as:
-
-* [R][]: a "software environment for statistical computing and graphics," R is
-  especially well-suited to cleaning and analyzing tabular data, training
-  statistical models, and creating data visualizations. R has support for
-  missing values built-in, a friendly and active community, and tens of
-  thousands of user-contributed packages, mostly related to statistics and data
-  science.
-
-* [Python][]: a general-purpose programming language that "lets you work
-  quickly and integrate systems more effectively." The Python community
-  supports research computing through its user-contributed NumPy, SciPy, and
-  Pandas packages, as well as others. Python's syntax encourages well-organized
-  code, and its community is enormous and spans many different disciplines.
-  It's also one of the primary languages for deep learning. Python's facilities
-  for data analysis are not as mature as R's, with equivalent features and
-  stability but some rough edges.
-
-* [Julia][]: a relatively new programming language "appropriate for scientific
-  and numerical computing, with performance comparable to [languages like C]."
-  Julia is designed from the ground up for research computing and uses modern
-  optimizations to run substantially faster than R or Python for many tasks.
-  Julia's community is small but growing. Julia's facilities for data analysis
-  are not as mature as R's or Python's, with many still in early development.
-  Expect to occasionally have to develop things yourself when you wouldn't in
-  more mature languages.
-
-[R]: https://www.r-project.org/
-[Python]: https://www.python.org/
-[Julia]: https://julialang.org/
-
-When choosing a language, always make sure to consider the specific needs of
-your project. Projects with specific requirements for performance or other
-features (for example, developing web applications) may benefit from using
-other languages or a mix of languages.
-
-:::{seealso}
-If you want to learn R, see DataLab's [R Basics workshop reader][r-basics] and
-consider joining the [Davis R Users Group][drug].
-
-If you want to learn Python, see DataLab's [Python Basics workshop
-reader][py-basics] and consider joining the [Davis Python Users Group][dpug].
-
-If you want to learn Julia, see the [official Julia documentation][julia-docs]
-and consider joining the [UC Julia Users Group][ucjug].
-:::
-
-[r-basics]: https://ucdavisdatalab.github.io/workshop_r_basics/
-[drug]: https://d-rug.github.io/
-[py-basics]: https://ucdavisdatalab.github.io/workshop_python_basics/
-[dpug]: https://datalab.ucdavis.edu/davis-python-users-group/
-[julia-docs]: https://docs.julialang.org/
-[ucjug]: https://datalab.ucdavis.edu/julia-users-group/
-
-
-Publishing
--------------------
 ### Open Access 
 
 Not having access to a piece of research or its underlying data and materials can be the main roadblock to reproducibility. Open access not only allows anyone to access and read the papers, but it also permits reproducibility, replicability, and the opportunity to build on or reuse all or part of your work in a future project to advance science and knowledge. Many grant providers and institutions may also require your work to be published open access.
