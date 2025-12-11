@@ -12,29 +12,40 @@ relevant, and we recommend you do too.
 Documentation
 -------------
 
-### Document the Data
+(document-every-experiment)=
+### Document Every Experiment
 
-In a perfect world, every data set would come with detailed documentation or
-**metadata** about how the data were collected, what assumptions were made,
-what biases might be present, any ethical concerns, the overall structure, what
-each observation means, what each feature means, and more. Good data
-documentation guides researchers towards appropriate, responsible use of the
-data.
-
-Collecting data as part of a project gives you and your collaborators control
-over how the data are documented, so you can ensure there are no gaps. If your
-project uses data collected earlier or by someone else, it's a good practice to
-fill gaps in the existing documentation with your own. Thorough documentation
-isn't just beneficial to other researchers, it's also beneficial to future
-you---small details you notice and document about features could be important
-later in the project.
-
-:::{seealso}
-See DataLab's [README, Write Me! workshop reader][datalab-readme] for more
-about how to document data.
+:::{note}
+An "experiment" doesn't necessarily have to be an experiment done in a lab.
+Doing an experiment could mean running a simulation, testing a model, or
+something else.
 :::
 
-[datalab-readme]: https://ucdavisdatalab.github.io/workshop_how-to-data-documentation/
+Keep a record of every experiment that you do. Document parameters, the
+results, and anything else you think is relevant for:
+
+* Repeating experiments in the future. Research projects are often
+  iterative---you may need to repeat an experiment to make adjustments to a few
+  parameters or because you discovered a bug in your code.
+
+* Comparing across experiments. Think of the documentation as a high-level
+  overview of your project. Use it to get a sense of which experiments had
+  promising results, which didn't, and which you might want to try next.
+
+* Avoiding redundant work. By keeping track of what's already been done, you
+  can avoid accidentally and unnecessarily repeating an experiment that you or
+  your collaborators have already done.
+
+Get in the habit of recording experiments as soon as you start to plan them,
+and recording the results as soon as they finish. Assign a unique name or
+number to each experiment so that you can reference specific experiments in
+your other notes and files. If you have collaborators, make sure they can
+access the documentation and understand how to use it.
+
+:::{tip}
+Spreadsheets are often a good format for this kind of documentation, since
+they're convenient for data entry.
+:::
 
 
 (choose-a-license)=
