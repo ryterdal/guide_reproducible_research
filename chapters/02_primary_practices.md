@@ -303,12 +303,21 @@ associated with each file or data set, DataLab's
 [data inventory template][datalab_di_template] provides a comprehensive
 starting point. 
 
+If your data uses numbers, acronyms, or abbreviations to store information, you
+should include a [**codebook**][codebook] in your metadata. Like a data
+dictionary, a codebook lists all of the variables in a data set. However, a
+codebook also lists the meaning of each value (or code) for each variable. For
+example, it is very common to store biological sex as a binary variable where
+the values are either 0 or 1. The codebook for such a data set would tell you
+that 0=male and 1=female for the sex variable.
+
 [osf_dd]: https://help.osf.io/article/217-how-to-make-a-data-dictionary
 [usgs_dd]: https://www.usgs.gov/data-management/data-dictionaries
 [captain_o]: https://dataedo.com/blog/captain-obivous-guide-to-column-descriptions-data-dictionary-best-practices
 [datalab_dd_template]: https://docs.google.com/spreadsheets/d/12N0hKyeT0ndZnt7rVZsz7LTW--BHhbb6TOegXEKQoxE/edit?usp=sharing
 [datalab_di_template]: https://docs.google.com/spreadsheets/d/1nUb-eu82Q7VplDpk0np5rYuaN52mYHLdql18pRD0i4Y/edit?usp=sharing
 [create_dd]: https://caltechlibrary.github.io/RDMworkbook/documentation.html#data-dictionary
+[codebook]: https://www.icpsr.umich.edu/sites/icpsr/posts/shared/what-is-a-codebook-2
 
 :::{seealso}
 See [OSF][osf_dd] and the [Research Data Management Workbook][create_dd] for how
