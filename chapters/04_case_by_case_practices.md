@@ -56,12 +56,6 @@ overview of how to manage log files in Python.
 
 
 
-Project Organization
---------------------
-
-### Make a Package
-
-
 Workflow Automation
 -------------------
 
@@ -138,10 +132,6 @@ Snakemake.
 :::
 
 
-
-### Use Integration Tests
-
-#### On Unit Tests
 
 ### Use Continuous Integration
 
@@ -400,3 +390,154 @@ change the hardware they offer.
 If you decide to use cloud computing, we recommend documenting the details of
 the hardware by hand, and using an environment manager or containerization to
 manage the software for your project.
+
+
+## Publish Your Code
+
+> Ten years ago, your lab devised a new method to preprocess and calibrate data
+> from an ovisometer, a scientific instrument for non-invasive collection of
+> data about sheep. You published a paper with an explanation of the method and
+> case studies demonstrating its performance characteristics. To carry out the
+> case studies, your co-author implemented the method in the R programming
+> language, and ran the code on data you collected. Your co-author did not want
+> to publish the code with the paper, insisting that the method is what's
+> important, not the implementation.
+>
+> Today you received an email from someone trying to reproduce your case
+> studies. They got vastly different results for the third case study, and
+> asked if you'd be willing to share the code from the implementation you used
+> in the paper. You don't have a copy of the code, and when you contact your
+> co-author, they say they lost track of their copy over the years.
+
+When you develop software as part of a research project, your research is not
+completely reproducible unless you make the source code for the software
+available along with the other research results. Sharing the code provides
+transparency about exactly what you did and allows peers to verify that it
+matches what you said you did, which includes examining it for extra steps,
+unstated assumptions, and bugs. It also ensures that others can run the code
+themselves, reproducing your results.
+
+There are several things to think about when publishing code, which we discuss
+in the following sections.
+
+
+### Document the Code
+
+Provide documentation with your code, so that others will know how to use it
+(see {ref}`FIXME`). For code you plan to share, it's especially important to
+include set up or installation instructions, instructions for how to run the
+code, and an overview of what's included with the code.
+
+
+### Choose an Open-Source License
+
+A **license** is a legal document that grants others permission to do, use, or
+possess something. If you plan to make your code or other research materials
+widely/publicly available, it's a good idea to select a license so that you can
+retain some control over how they're used and ensure you receive proper credit.
+
+An **open-source** license is one which guarantees that people can freely
+access, distribute, and create derivatives of a project and its source
+materials. For software, the source material is code. By making the code
+available, open-source licenses provide complete transparency about how the
+software works. They also encourage people to collaborate on the development
+and maintenance of the project. With an open-source license, a project can
+remain vibrant and continue to grow even if the original authors stop
+participating. For all of these reasons, choosing an open-source license is a
+best practice for reproducible research.
+
+DataLab uses open-source licenses for a majority of our projects, whether they
+consist of software or other content (like this reader).
+
+Different kinds of licenses are appropriate for different kinds of content.
+There are licenses designed specifically for software and code, as well as
+licenses for other media. Different licenses also put different conditions on
+use and redistribution. For instance, some licenses restrict commercial use and
+redistribution.
+
+Choosing a license might seem daunting because so many different licenses
+exist, but there are lots of resources available to help. A good starting point
+is [choosealicense.com][gh-cal] (maintained by GitHub). Popular licenses tend
+to be a good choice because they've withstood the test of time and are familiar
+to many people. For software, the GNU Public License (GPL) and MIT License are
+particularly popular. For data, writing, art, and other content, [Creative
+Commons licenses][cc-cal] are popular; section {ref}`FIXME` provides more
+details about licensing non-software content.
+
+[gh-cal]: https://choosealicense.com/
+[cc-cal]: https://creativecommons.org/choose/
+
+:::{seealso}
+See also the Open Source Initiative's [FAQ answer about which license to
+choose][osi-cal] for even more about licensing software.
+
+[osi-cal]: https://opensource.org/faq/#which-license
+:::
+
+
+#### Package the Code
+
+Many programming languages provide standards and tools for creating libraries
+or packages of code that can be shared with others. For example, R and Python
+both have well-documented package formats and tools to install packages from
+centralized repositories such as CRAN and PyPI. Packaging your code makes it
+easier for others to obtain, install, and run, and thus makes it easier to
+reproduce your results. If you have collaborators, packaging the code early can
+also make it easier to share changes and ensure everyone is working with the
+same version.
+
+If your research uses a single programming language, look into the best way to
+package code for that language. If it uses multiple languages, packaging the
+code separately for each language is often a good choice. If you're not sure
+what kind of packaging to use, the Conda format might be a good choice, since
+it's language-agnostic, and the conda-forge maintainers provide [documentation
+about how to create a package][conda-forge-docs].
+
+[conda-forge-docs]: https://conda-forge.org/docs/maintainer/adding_pkgs/
+
+
+:::{seealso}
+To learn more about creating an R package, see the book [R Packages][r-pkg] by
+Wickham & Bryan.
+
+To learn more about creating a Python package, see pyOpenSci's [Python Package
+Guide][py-pkg] or the [Python Packaging User Guide][pypa].
+
+[r-pkg]: https://r-pkgs.org/
+[py-pkg]: https://www.pyopensci.org/python-package-guide/
+[pypa]: https://packaging.python.org/
+:::
+
+
+#### Create Automated Tests for the Code
+
+If you develop reusable software as part of your research, it's a good idea to
+create automated tests that verify the software works as intended. Automated
+tests are specifically helpful for making sure that changes to the code don't
+accidentally introduce bugs or remove existing features. This is important from
+a reproducible research perspective because bugs introduced over time can make
+it difficult or impossible for others to reproduce your results. Tests can also
+serve as concrete goals to guide development of the software: write a test that
+checks for what the software should be able to do, then write the code to pass
+the test.
+
+Automated tests are especially important for software that have many developers
+or contributors. A contributor will not necessarily be familiar with all of the
+software's features (and their implementation and interdependence), so the risk
+of unintentionally breaking something when they make changes is high. Running
+the automated tests can provide an early warning about problems and help
+pinpoint which code to change to resolve them.
+
+Most programming languages have at least one tool or package for automated
+testing. For popular languages, there are often several.
+
+:::{seealso}
+If you'd like to write automated tests for R code, we recommend starting with
+the [testthat][] package.
+
+If you'd like to write automated tests for Python code, we recommend starting
+with the [pytest][] package.
+
+[testthat]: https://testthat.r-lib.org/
+[pytest]: https://docs.pytest.org/
+:::
