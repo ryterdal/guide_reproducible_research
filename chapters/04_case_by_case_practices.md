@@ -392,6 +392,8 @@ the hardware by hand, and using an environment manager or containerization to
 manage the software for your project.
 
 
+Publishing
+-------------
 ## Publish Your Code
 
 > Ten years ago, your lab devised a new method to preprocess and calibrate data
@@ -540,4 +542,42 @@ with the [pytest][] package.
 
 [testthat]: https://testthat.r-lib.org/
 [pytest]: https://docs.pytest.org/
+:::
+
+## Open Methods
+
+You can also release or publish your methods and materials as additional open access research products. This practice helps not only make your research process transparent, but it also makes your study reproducible and verifiable, and your approach reusable. Your published paper might explain the methods, but in order to reproduce your findings, more information on your design, protocol, materials, etc. is probably needed.
+
+**Open methods** refers to publishing, either formally or informally, all the details of your processes, procedures, and materials openly so that someone else could perform your study exactly as you did.
+
+Examples may include protocols, surveys and questionnaires, lab notebooks, equipment settings, video demonstrations, software and code, and more.
+
+:::{important}
+Something somewhere about how some stuff is proprietary so don’t share that obviously.
+:::
+
+You should also ensure your methods and materials follow FAIR principles using the following practices:
+
+**Findable:**
+* Publish or deposit with an open access publisher or repository.
+* Assign a persistent identifier to your materials, such as a Digital Object Identifier (DOI). (This can usually be done by depositing in a repository.)
+* Properly cite the methods and materials in any other related published materials.
+
+**Accessible:**
+* Publish or deposit in an open access repository.
+* Include proper metadata describing access, authentication, and authorization.
+
+**Interoperable:**
+* Publish the materials in standard, non-proprietary formats.
+* {ref}`use-file-formats-effectively`
+
+**Reusable:**
+* Provide metadata and adequate documentation for reuse.
+* **Other links to other sections???**
+* Publish under an open license.
+
+:::{seealso}
+Learn more about licensing in the {ref}`open-licenses` section.
+
+Visit the {ref}`FIXME` section for more information on Open Source code and software.
 :::
