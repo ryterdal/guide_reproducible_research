@@ -548,12 +548,19 @@ with the [pytest][] package.
 
 You can also release or publish your methods and materials as additional open access research products. This practice helps not only make your research process transparent, but it also makes your study reproducible and verifiable, and your approach reusable. Your published paper might explain the methods, but in order to reproduce your findings, more information on your design, protocol, materials, etc. is probably needed.
 
-**Open methods** refers to publishing, either formally or informally, all the details of your processes, procedures, and materials openly so that someone else could perform your study exactly as you did.
+**Open methods** refers to publishing, either formally or informally, all the details of your processes, procedures, and materials openly so that someone else could perform your study exactly as you did. Examples may include protocols, surveys and questionnaires, lab notebooks, equipment settings, video demonstrations, software and code, and more.
 
-Examples may include protocols, surveys and questionnaires, lab notebooks, equipment settings, video demonstrations, software and code, and more.
+You have many options for sharing these methods and materials. You could add them as supplementary information files along with a published article, deposit them in a specific repository (e.g. [protocols.io][protocols-io], [PROSPERO][prospero]), have them peer reviewed and formally published in a journal (e.g. registered reports, study protocols, or other methods articles), or share them publicly another way (e.g. [GitHub][github], [Open Science Framework][OSF], [Open Lab Notebooks][open-lab-notebooks], [Journal of Visual Experiments (JoVE)][jove]). You may also need to or want to preregister your study plan before conducting the research (e.g. a clinical trials registry, registered reports, [Open Science Framework][OSF]). 
+
+[protocols-io]: https://www.protocols.io/
+[github]: https://github.com/
+[OSF]: https://osf.io/
+[open-lab-notebooks]: https://openlabnotebooks.org/ 
+[prospero]: https://www.crd.york.ac.uk/prospero/
+[jove]: https://www.jove.com/education/science-education
 
 :::{important}
-Something somewhere about how some stuff is proprietary so don’t share that obviously.
+Some materials and procedures may be not be appropriate to share due to privacy, confidentiality, security, intellectual property, or other rights or requirements. 
 :::
 
 You should also ensure your methods and materials follow FAIR principles using the following practices:
