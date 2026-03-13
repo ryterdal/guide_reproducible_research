@@ -1,5 +1,6 @@
 # Dissemination & Sharing
 
+
 (sec-open-access)=
 ## Publish Open Access 
 
@@ -43,6 +44,7 @@ Applying an open license to your materials is key to making them openly
 available. Open licenses allow anyone to view, share, and reuse materials. See
 more in the {ref}`open-licenses` section below.
 :::
+
 
 (open-data)=
 ### Publish Open Data
@@ -309,8 +311,14 @@ testing. For popular languages, there are often several.
 If you'd like to write automated tests for R code, we recommend starting with
 the [testthat][] package.
 
+[testthat]: https://testthat.r-lib.org/
+
 If you'd like to write automated tests for Python code, we recommend starting
 with the [pytest][] package.
+
+[pytest]: https://docs.pytest.org/
+:::
+
 
 (open-licenses)=
 ## Open Licenses
@@ -326,7 +334,9 @@ maintained and extended even if the original developers cease development. They
 also promote transparency and collaboration, since anyone with the software can
 inspect and modify the code. See the {ref}`open-source-license` below for more details.
 
+
 ### Choose an Open License for Articles, Data, and other non-code outputs
+
 When an open license is applied to a work, the author or creator retains the
 rights to/ownership of the original work, and most open licenses require that
 proper credit be given to the creator.
@@ -355,7 +365,6 @@ open license (maintained by GitHub) or the Open Source Initiative's [FAQ answer
 about which license to choose][osi-cal].
 :::
 
-[testthat]: https://testthat.r-lib.org/
 
 (open-source-license)=
 ### Choose an Open-Source License for Code
@@ -395,6 +404,4 @@ more details about licensing non-software content.
 :::{seealso}
 See also the Open Source Initiative's [FAQ answer about which license to
 choose][osi-cal] for even more about licensing software.
-:::
-[pytest]: https://docs.pytest.org/
 :::
