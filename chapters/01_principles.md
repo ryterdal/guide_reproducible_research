@@ -134,14 +134,31 @@ reproducible by adopting various practices that each address one or more of
 these principles. The principles are often symbiotic: a good practice for one
 may also be a good practice for others.
 
-Many different practices and tools exist, so it can be difficult to determine where to begin or how to best apply them. In this reader, they're divided into four thematic groups that align with different stages and aspects of the research lifecycle:
+Many different practices and tools exist, so it can be difficult to determine
+where to begin or how to best apply them. In this reader, they're divided into
+four thematic groups that align with different stages and aspects of the
+research lifecycle:
 
-1. **Planning For Success** covers foundational practices you should adopt before you dive into the work. For example, writing a scoping document and setting up a data management plan are crucial early steps to keep your project on track.
-2. **Daily Habits For Everyone** includes ongoing, universal practices that will benefit your work day-to-day. You should always keep a detailed research log, maintain clear READMEs, and keep your directories organized.
-3. **Reproducible Computing** focuses on practices specific to projects that involve code and data analysis. For example, if your project involves writing Python or R scripts, it is very important to carefully organize your code and use an environment manager. However, if your project doesn't involve any computation, some of these tools might not be necessary.
-4. **Dissemination Sharing** addresses how to responsibly make your work available to others. These practices include choosing open-source licenses, publishing open methods, and releasing your data using FAIR principles so that your research is verifiable and reusable.
+1. **Planning For Success** covers foundational practices you should adopt
+   before you dive into the work. For example, writing a scoping document and
+   setting up a data management plan are crucial early steps to keep your
+   project on track.
+2. **Daily Habits For Everyone** includes ongoing, universal practices that
+   will benefit your work day-to-day. You should always keep a detailed
+   research log, maintain clear READMEs, and keep your directories organized.
+3. **Reproducible Computing** focuses on practices specific to projects that
+   involve code and data analysis. For example, if your project involves
+   writing Python or R scripts, it is very important to carefully organize your
+   code and use an environment manager. However, if your project doesn't
+   involve any computation, some of these tools might not be necessary.
+4. **Dissemination & Sharing** addresses how to responsibly make your work
+   available to others. These practices include choosing open-source licenses,
+   publishing open methods, and releasing your data using FAIR principles so
+   that your research is verifiable and reusable.
 
-Each of the next four chapters addresses one of these groups. The practices were sorted into these categories based on the authors' and DataLab's research projects and experiences.
+Each of the next four chapters addresses one of these groups. The practices
+were sorted into these categories based on the authors' and DataLab's research
+projects and experiences.
 
 :::{note}
 Most of the practices related to managing code are also software engineering
