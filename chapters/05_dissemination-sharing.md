@@ -365,6 +365,10 @@ open license (maintained by GitHub) or the Open Source Initiative's [FAQ answer
 about which license to choose][osi-cal].
 :::
 
+[cc-cal]: https://creativecommons.org/choose/
+[gh-cal]: https://choosealicense.com/
+[osi-cal]: https://opensource.org/faq/#which-license
+
 
 (open-source-license)=
 ### Choose an Open-Source License for Code
