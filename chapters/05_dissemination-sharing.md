@@ -3,14 +3,7 @@
 
 ## Follow FAIR Principles
 
-Not having access to a piece of research or its underlying data and materials
-can be the main roadblock to reproducibility. Open access not only allows
-anyone to access and read the papers, but it also permits reproducibility,
-replicability, and the opportunity to build on or reuse all or part of your
-work in a future project to advance science and knowledge. Many grant providers
-and institutions may also require your work to be published open access.
-
-You should also ensure any of your research outputs follow FAIR principles using the following
+Ensure all of your research outputs follow FAIR principles by adopting these
 practices:
 
 **Findable:**
@@ -37,13 +30,6 @@ practices:
 * Publish under an open license.
 * Properly cite your source data.
 
-:::{important} Open Licenses
-
-Applying an open license to your materials is key to making them openly
-available. Open licenses allow anyone to view, share, and reuse materials. See
-more in the {ref}`open-licenses` section.
-:::
-
 
 (open-licenses)=
 ## Choose Open Licenses
@@ -53,6 +39,14 @@ work in a variety of ways. An **open license** makes a work freely available
 for others to read, copy, distribute, and use without obtaining permission from
 the author or creator. Open licenses also provide free, immediate, and
 perpetual access to the content. 
+
+Not having access to a piece of research or its underlying data and materials
+can be the main roadblock to reproducibility. Open licenses and open access not
+only allow anyone to access and read the papers, but also permits
+reproducibility, replicability, and the opportunity to build on or reuse all or
+part of your work in a future project to advance science and knowledge. Many
+grant providers and institutions require your work to be published with open
+licenses and open access.
 
 For code, an open-source license ensures that software can continue to be
 maintained and extended even if the original developers cease development. They
